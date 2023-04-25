@@ -7,11 +7,18 @@ import { AppComponent } from './app.component';
 
 //modules
 import { NavBarModule } from './nav-bar/nav-bar.module';
+import { ContentModule } from './content/content.module';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, NavBarModule, CommonModule, NoopAnimationsModule],
+  imports: [
+    BrowserModule,
+    NavBarModule,
+    CommonModule,
+    NoopAnimationsModule,
+    ContentModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
