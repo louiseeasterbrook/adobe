@@ -1,0 +1,53 @@
+<div class="nav-outer">
+  <div class="nav-inner">
+    <div class="left-section">
+      <div class="logo-wrapper">
+        <img src="../../../../assets/images/adobe-logo.svg" alt="adobe logo" />
+        <h4>Adobe</h4>
+      </div>
+
+      <bar-option
+        text="Creativity & Design"
+        id="0"
+        [open]="isOpen('0')"
+        (navPressed)="clickNavOption($event)"
+      ></bar-option>
+      <bar-option
+        text="PDF & E-signatures"
+        id="1"
+        [open]="isOpen('1')"
+        (navPressed)="clickNavOption($event)"
+      ></bar-option>
+      <bar-option
+        text="Marketing & commerce"
+        id="2"
+        [open]="isOpen('2')"
+        (navPressed)="clickNavOption($event)"
+      ></bar-option>
+      <bar-option
+        text="Help & support"
+        id="3"
+        [open]="isOpen('3')"
+        (navPressed)="clickNavOption($event)"
+      ></bar-option>
+    </div>
+
+    <div class="right-section">
+      <div class="search-btn-wrapper" (click)="showSearch()">
+        <mat-icon [class.hide]="showSearchBar" class="search-icon"
+          >search</mat-icon
+        >
+        <mat-icon [class.hide]="!showSearchBar">close</mat-icon>
+      </div>
+      <a href="#">Sign in</a>
+    </div>
+  </div>
+
+  <div *ngIf="showDropDown" class="drop-down-wrapper">
+    <drop-down [id]="currentDropDownId"></drop-down>
+  </div>
+
+  <div *ngIf="showSearchBar" class="drop-down-wrapper">
+    <search-bar></search-bar>
+  </div>
+</div>

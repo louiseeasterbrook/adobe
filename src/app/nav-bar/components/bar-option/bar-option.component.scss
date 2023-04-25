@@ -1,0 +1,32 @@
+.option-wrapper {
+    height:100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+    .content{
+        font-size: 14px;
+        font-weight: 400;
+        margin:0;
+        color: #2c2c2c;
+        position: relative;
+        padding-right: 4px;
+    }
+
+    mat-icon{
+        font-size: 14px;
+        transition: all .1s ease;
+        transition-property: transform;
+        width:14px;
+        height:14px;
+    }
+
+    .turn{
+        transform: rotate(-180deg);
+    }
+}
+
+.option-wrapper:hover{
+    background-color: rgb(251, 251, 251);
+    cursor: pointer;
+}
