@@ -1,6 +1,8 @@
 <div class="links-outer">
   <div class="links-inner">
     <p>Creative Cloud for:</p>
-    <a *ngFor="let text of titles" href="#">{{ text }}</a>
+    <div class="link-wrapper">
+      <a *ngFor="let text of titles" href="#">{{ text }}</a>
+    </div>
   </div>
 </div>

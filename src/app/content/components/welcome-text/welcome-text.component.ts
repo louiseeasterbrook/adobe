@@ -16,7 +16,5 @@ export class WelcomeTextComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-    console.log('---weolcome ', this.theme);
-  }
+  ngOnInit(): void {}
 }
