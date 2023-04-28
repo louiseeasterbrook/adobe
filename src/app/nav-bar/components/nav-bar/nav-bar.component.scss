@@ -21,6 +21,23 @@
 
     .left-section{
       display: flex;
+      
+
+      .mobile-button{
+        display: flex;
+        align-items: center;
+        padding-right: 40px;
+        @media (min-width: $breakpoint-md) {
+          display: none; 
+        }
+
+        mat-icon{
+          font-size: 18px;
+          height: 18px;
+          width: 18px;
+          cursor: pointer;
+        }
+      }
 
       .logo-wrapper {
         cursor: pointer;
@@ -36,6 +53,12 @@
           color: $adobe-red;
           font-size: 18px;
           font-weight: 700;
+        }
+      }
+
+      .desktop-menu-wrapper{
+        @media (max-width: $breakpoint-md) {
+          display: none; 
         }
       }
     }
@@ -61,6 +84,9 @@
     .search-btn-wrapper{
       cursor: pointer;
       position: relative;
+      @media (max-width: $breakpoint-md) {
+        display: none; 
+      }
 
       mat-icon{
         color: $charcoal;

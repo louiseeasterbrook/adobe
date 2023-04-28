@@ -9,6 +9,7 @@ export class NavBarComponent implements OnInit {
   showDropDown: boolean = false;
   showSearchBar: boolean = false;
   currentDropDownId: string = '';
+  showMobileMenu: boolean = false;
 
   constructor() {}
 
@@ -30,7 +31,7 @@ export class NavBarComponent implements OnInit {
     this.showDropDown = false;
   }
 
-  isOpen(id: string) {
-    return this.showDropDown && this.currentDropDownId === id;
+  clickMobileMenuButton() {
+    this.showMobileMenu = !this.showMobileMenu;
   }
 }

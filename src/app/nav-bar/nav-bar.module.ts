@@ -11,13 +11,17 @@ import {
 import { SharedComponentsModule } from '../shared-components/shared-compnents.module';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { MatIconModule } from '@angular/material/icon';
+import { DesktopMenuComponent } from './components/desktop-menu/desktop-menu.component';
+import { MobileDropDownComponent } from './components/mobile-drop-down/mobile-drop-down.component';
 
 @NgModule({
   declarations: [
     NavBarComponent,
     BarOptionComponent,
     DropDownComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    DesktopMenuComponent,
+    MobileDropDownComponent
   ],
   imports: [CommonModule, BrowserModule, SharedComponentsModule, MatIconModule],
   exports: [NavBarComponent],

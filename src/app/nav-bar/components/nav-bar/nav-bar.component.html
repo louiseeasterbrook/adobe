@@ -1,35 +1,24 @@
 <div class="nav-outer">
   <div class="nav-inner">
     <div class="left-section">
+      
+      <div class="mobile-button" (click)="clickMobileMenuButton()">
+        <mat-icon [class.hide]="showMobileMenu">dehaze</mat-icon>
+        <mat-icon [class.hide]="!showMobileMenu">close</mat-icon>
+      </div>
+
       <div class="logo-wrapper">
         <img src="../../../../assets/images/adobe-logo.svg" alt="adobe logo" />
         <h4>Adobe</h4>
       </div>
 
-      <bar-option
-        text="Creativity & Design"
-        id="0"
-        [open]="isOpen('0')"
-        (navPressed)="clickNavOption($event)"
-      ></bar-option>
-      <bar-option
-        text="PDF & E-signatures"
-        id="1"
-        [open]="isOpen('1')"
-        (navPressed)="clickNavOption($event)"
-      ></bar-option>
-      <bar-option
-        text="Marketing & commerce"
-        id="2"
-        [open]="isOpen('2')"
-        (navPressed)="clickNavOption($event)"
-      ></bar-option>
-      <bar-option
-        text="Help & support"
-        id="3"
-        [open]="isOpen('3')"
-        (navPressed)="clickNavOption($event)"
-      ></bar-option>
+      <div class="desktop-menu-wrapper">
+        <desktop-menu
+          (navClicked)="clickNavOption($event)"
+          [showDropDown]="showDropDown"
+          [currentDropDownId]="currentDropDownId"
+        ></desktop-menu>
+      </div>
     </div>
 
     <div class="right-section">
@@ -49,5 +38,9 @@
 
   <div *ngIf="showSearchBar" class="drop-down-wrapper">
     <search-bar></search-bar>
+  </div>
+
+  <div *ngIf="showMobileMenu" class="drop-down-wrapper">
+    <mobile-drop-down></mobile-drop-down>
   </div>
 </div>

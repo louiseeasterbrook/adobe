@@ -15,7 +15,6 @@ export class BareButtonComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log('button ', this.theme);
   }
 
   pressed() {
