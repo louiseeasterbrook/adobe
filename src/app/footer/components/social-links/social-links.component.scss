@@ -1,0 +1,49 @@
+@import '../../../../styles.scss';
+
+.social-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    .social-left{
+        display: flex;
+        align-items: center;
+        gap:16px;
+
+        .media-wrapper{
+            img{
+                width:20px;
+                height:20px;
+                padding-right:14px;
+            }
+        }
+    }
+
+ 
+
+    .legal-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        a{
+            font-size: 11px;
+        }
+        p{
+            font-size: 11px;
+            color: #4B4B4B;
+            font-weight: 200;
+        }
+
+        .ad-choice{
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+            img{
+                width:25px;
+            }
+        }
+    }
+
+}
