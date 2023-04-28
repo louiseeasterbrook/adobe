@@ -1,5 +1,7 @@
+@import '../../../../styles.scss';
+
 .button-wrapper{
-    background-color: #1473e6;
+    background-color: $basic-blue;
     outline: none;
     border: none;
     border-radius: 16px;
@@ -7,9 +9,9 @@
     color: #FFFFFF;
     font-size: 15px;
     padding: 8px 15px;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .button-wrapper:hover{
-    background-color: #1265cb;
+    background-color: $hover-blue;
 }

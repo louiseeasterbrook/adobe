@@ -2,8 +2,8 @@
 
 .product-link-container{
     width: 100%;
-    border-top: 1px #505050 solid;
-    border-bottom: 1px #505050 solid ;
+    border-top: 1px $text-grey-dark solid;
+    border-bottom: 1px $text-grey-dark solid ;
     padding: 8px 0;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@
 
         h5{
             margin:0;
-            color: #505050 ;
+            color: $text-grey-dark ;
             font-size: 14px;
             padding-right: 15px;
         }

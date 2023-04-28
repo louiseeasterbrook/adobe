@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: center;
     padding: 24px 12px;
-    border-bottom: 1px solid rgb(224, 224, 224);
-    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid $background-grey-mid;
+    border-top: 1px solid $background-grey-mid;
 
     .links-inner{
         display: flex;

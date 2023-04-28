@@ -7,5 +7,8 @@
     background-size: cover;
     min-height: 300px;
     max-height: 500px;
-    background-image: url('../../../../assets/images/acrobat-board.png')
+    background-image: url('../../../../assets/images/acrobat-board.png');
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
