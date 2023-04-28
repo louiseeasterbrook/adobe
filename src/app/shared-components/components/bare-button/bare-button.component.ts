@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Theme } from 'src/app/models/theme';
 
 @Component({
   selector: 'bare-button',
@@ -7,11 +8,15 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class BareButtonComponent implements OnInit {
   @Input() text: string = '';
+  @Input() theme: string = Theme.dark;
   @Output() buttonPressed = new EventEmitter();
+  Theme = Theme;
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log('button ', this.theme);
+  }
 
   pressed() {
     this.buttonPressed.emit();

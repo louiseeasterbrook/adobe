@@ -1,0 +1,11 @@
+@import '../../../../styles.scss';
+
+.adobe-container{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 500px;
+    background-image: url('../../../../assets/images/acrobat-board.png')
+}

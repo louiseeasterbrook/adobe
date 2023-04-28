@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Theme } from 'src/app/models/theme';
 
 @Component({
   selector: 'card-row-intro',
@@ -6,10 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-row-intro.component.scss']
 })
 export class CardRowIntroComponent implements OnInit {
+  Theme = Theme;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

@@ -1,5 +1,15 @@
+@import '../../../../styles.scss';
+
 .content-card-outer{
-    padding: 36px 24px;
-    height: 400px;
-    background-color: coral;
+    // max-width: 490px;
+    width: 100%;
+    position: relative;
+
+    .absolute-wrapper{
+        padding: 30px 20px;
+        position: absolute;
+        top: 0;
+        left:0
+    }
+
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Theme } from 'src/app/models/theme';
 
 @Component({
   selector: 'opening-section',
@@ -6,10 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./opening-section.component.scss']
 })
 export class OpeningSectionComponent implements OnInit {
+  Theme = Theme;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

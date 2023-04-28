@@ -10,10 +10,11 @@ import {
   CreativeCloudsLinksComponent,
   ContentCardComponent,
   CardRowIntroComponent,
-  CardBlurbComponent
+  CardBlurbComponent,
+  AdobeBoardComponent,
+  CardRowExploreComponent,
+  ContentComponent
 } from './components/index';
-import { CardRowExploreComponent } from './components/card-row-explore/card-row-explore.component';
-import { VideoCardComponent } from './components/video-card/video-card.component';
 
 @NgModule({
   declarations: [
@@ -24,17 +25,12 @@ import { VideoCardComponent } from './components/video-card/video-card.component
     CardRowIntroComponent,
     CardBlurbComponent,
     CardRowExploreComponent,
-    VideoCardComponent
+    AdobeBoardComponent,
+    ContentComponent
   ],
   imports: [SharedComponentsModule, BrowserModule],
   providers: [],
   bootstrap: [],
-  exports: [
-    OpeningSectionComponent,
-    CreativeCloudsLinksComponent,
-    CardRowIntroComponent,
-    CardBlurbComponent,
-    CardRowExploreComponent
-  ]
+  exports: [OpeningSectionComponent, ContentComponent]
 })
 export class ContentModule {}

@@ -1,11 +1,17 @@
 @import '../../../../styles.scss';
 
 .card-row-outer{
+    padding: 30px 0;
 
     .card-row-inner{
         display: flex;
         align-items: center;
         justify-content: space-around;
         gap:40px;
+
+        img{
+            width: 100%;
+        }
     }
+
 }

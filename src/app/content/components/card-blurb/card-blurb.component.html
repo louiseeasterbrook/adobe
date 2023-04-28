@@ -1,5 +1,8 @@
-<div class="blurb-wrapper">
-    <h2>{{title}}</h2>
-    <p>{{text}}</p>
-    <bare-button [text]="cta"></bare-button>
+<div
+  class="blurb-wrapper"
+  [ngClass]="{ dark: theme == Theme.dark, light: theme == Theme.light }"
+>
+  <h2>{{ title }}</h2>
+  <p>{{ text }}</p>
+  <bare-button [text]="cta" [theme]="theme"></bare-button>
 </div>
