@@ -1,5 +1,9 @@
 <div class="content-card-outer">
-  <ng-content></ng-content>
+  <picture>
+    <source media="(max-width: 1200px)" [srcset]="landscapeImage" />
+    <img [src]="portraitImage" alt="" />
+  </picture>
+
   <div class="absolute-wrapper">
     <card-blurb
       [title]="title"

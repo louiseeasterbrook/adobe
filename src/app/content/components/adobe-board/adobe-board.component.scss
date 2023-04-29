@@ -1,14 +1,26 @@
 @import '../../../../styles.scss';
 
-.adobe-container{
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    max-height: 500px;
-    background-image: url('../../../../assets/images/acrobat-board.png');
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.adobe-outer{
+
+    img{
+       display: none;
+       width: 100%;
+
+        @media (max-width: $breakpoint-lg){
+            display: block;
+        }
+    }
+
+    .adobe-container{
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 300px;
+        max-height: 500px;
+        background-image: url('../../../../assets/images/acrobat-board.png');
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
 }

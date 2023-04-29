@@ -11,6 +11,8 @@ export class ContentCardComponent implements OnInit {
   @Input() text: string = '';
   @Input() cta: string = '';
   @Input() theme: string = Theme.dark;
+  @Input() portraitImage: string = '';
+  @Input() landscapeImage: string = '';
 
   constructor() {}
 

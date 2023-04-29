@@ -1,9 +1,19 @@
 @import '../../../../styles.scss';
 
 .content-card-outer{
-    // max-width: 490px;
-    width: 100%;
     position: relative;
+    max-height: 550px;
+    overflow: hidden;
+
+    picture{
+        width: 100%;
+        display: block;
+    }
+
+    picture > *{
+        width: 100%;
+
+    }
 
     .absolute-wrapper{
         padding: 30px 20px;
