@@ -1,19 +1,15 @@
 @import '../../../../styles.scss';
 
 .opening-outer{
-    // background-color: rgb(208, 208, 208);
+    flex-direction: column;
     min-height: 600px;
     @media (max-width: $breakpoint-lg) {
         align-items: flex-start ;
     }
 
     .opening-inner{
-        padding: 0;
-        display: flex;
-        @media (max-width: $breakpoint-lg) {
-            justify-content: flex-start;
-            flex-direction: column;
-        }
+        box-sizing: border-box;
+
     }
 
     img{

@@ -1,9 +1,10 @@
 @import '../../../../styles.scss';
 
 .welcome-wrapper{
-    width:600px;
+    max-width:600px;
     height: 100%;
     padding: 50px 0;
+    box-sizing: border-box;
 
 
     h1{
