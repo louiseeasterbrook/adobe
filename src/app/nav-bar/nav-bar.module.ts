@@ -11,7 +11,10 @@ import {
   MenuCreativityComponent,
   MobileDropDownComponent,
   DesktopMenuComponent,
-  SearchBarComponent
+  SearchBarComponent,
+  MenuHelpComponent,
+  MenuMarketingComponent,
+  MenuPdfComponent
 } from './components/index';
 
 import { SharedComponentsModule } from '../shared-components/shared-components.module';
@@ -26,7 +29,10 @@ import { SharedComponentsModule } from '../shared-components/shared-components.m
     MobileDropDownComponent,
     MenuCreativityComponent,
     MenuCreativityComponent,
-    LinkStackComponent
+    LinkStackComponent,
+    MenuPdfComponent,
+    MenuMarketingComponent,
+    MenuHelpComponent
   ],
   imports: [CommonModule, BrowserModule, SharedComponentsModule, MatIconModule],
   exports: [NavBarComponent],

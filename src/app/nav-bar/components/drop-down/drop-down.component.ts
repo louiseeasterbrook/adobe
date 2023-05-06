@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { NavData } from 'src/app/models/nav';
 
 @Component({
   selector: 'drop-down',
@@ -6,9 +7,14 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./drop-down.component.scss']
 })
 export class DropDownComponent implements OnInit {
-  @Input() id: string = '';
+  @Input() selectedId: number = 0;
+  @Input() navData: NavData[] | null = null;
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    if(this.navData){
+    console.log("nsv ", this.navData)
+    }
+  }
 }

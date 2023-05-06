@@ -79,3 +79,20 @@ p, h5, h4{
     margin:0;
     padding:0;
 }
+
+.menu-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .menu-col{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn-wrapper{
+        margin-left: 30px;
+    }
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { NavData } from 'src/app/models/nav';
+const data = require('../../data/navData.json');
 
 @Component({
   selector: 'nav-bar',
@@ -8,14 +10,18 @@ import { Component, OnInit, HostListener } from '@angular/core';
 export class NavBarComponent implements OnInit {
   showDropDown: boolean = false;
   showSearchBar: boolean = false;
-  currentDropDownId: string = '';
+  currentDropDownId: number = 0;
   showMobileMenu: boolean = false;
   currentPosition: number = 0;
   hideNav: boolean = true;
 
+  navData: NavData[] | null = null;
+
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.navData = data;
+  }
 
   @HostListener('document:scroll')
   scrollFunction() {
@@ -37,7 +43,7 @@ export class NavBarComponent implements OnInit {
     this.showMobileMenu = false;
   }
 
-  clickNavOption(id: string) {
+  clickNavOption(id: number) {
     this.showSearchBar = false;
     if (this.showDropDown && this.currentDropDownId === id) {
       this.showDropDown = false;

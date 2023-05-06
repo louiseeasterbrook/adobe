@@ -1,7 +1,6 @@
 <div class="nav-outer" [class.hideNavBar]="hideNav">
   <div class="nav-inner">
     <div class="left-section">
-      
       <div class="mobile-button" (click)="clickMobileMenuButton()">
         <mat-icon [class.hide]="showMobileMenu">dehaze</mat-icon>
         <mat-icon [class.hide]="!showMobileMenu">close</mat-icon>
@@ -17,6 +16,7 @@
           (navClicked)="clickNavOption($event)"
           [showDropDown]="showDropDown"
           [currentDropDownId]="currentDropDownId"
+          [navData]="navData"
         ></desktop-menu>
       </div>
     </div>
@@ -33,7 +33,7 @@
   </div>
 
   <div *ngIf="showDropDown" class="drop-down-wrapper">
-    <drop-down [id]="currentDropDownId"></drop-down>
+    <drop-down [selectedId]="currentDropDownId" [navData]="navData"></drop-down>
   </div>
 
   <div *ngIf="showSearchBar" class="drop-down-wrapper">

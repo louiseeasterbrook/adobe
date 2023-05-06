@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Theme } from 'src/app/models/theme';
 
 @Component({
   selector: 'basic-button',
@@ -7,7 +8,9 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class BasicButtonComponent implements OnInit {
   @Input() text: string = '';
+  @Input() theme: string = Theme.dark;
   @Output() buttonPressed = new EventEmitter();
+  Theme = Theme;
 
   constructor() {}
 

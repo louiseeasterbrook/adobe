@@ -1,0 +1,5 @@
+<div class="menu-wrapper">
+  <div *ngFor="let data of linkList; let i = index" class="menu-col">
+    <link-stack *ngFor="let set of data" [data]="set"></link-stack>
+  </div>
+</div>

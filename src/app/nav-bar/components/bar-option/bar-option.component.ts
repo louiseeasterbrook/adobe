@@ -7,9 +7,9 @@ import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class BarOptionComponent implements OnInit {
   @Input() text: string = '';
-  @Input() id: string = '';
+  @Input() id: number = 0;
   @Input() open: boolean = false;
-  @Output() navPressed: EventEmitter<string> = new EventEmitter();
+  @Output() navPressed: EventEmitter<number> = new EventEmitter();
 
   constructor() {}
 

@@ -1,0 +1,13 @@
+<div class="menu-wrapper">
+  <div *ngFor="let data of linkList; let i = index" class="menu-col">
+    <link-stack *ngFor="let set of data" [data]="set"></link-stack>
+
+    <div *ngIf="i === 0" class="btn-wrapper">
+      <basic-button
+        text="Download and install"
+        [theme]="Theme.light"
+      ></basic-button>
+      <basic-button text="Contact us"></basic-button>
+    </div>
+  </div>
+</div>

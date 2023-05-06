@@ -1,3 +1,6 @@
-<button class="button-wrapper">
+<button
+  class="button-wrapper"
+  [ngClass]="{ blueBtn: theme == Theme.dark, BWBtn: theme == Theme.light }"
+>
   {{ text }}
 </button>

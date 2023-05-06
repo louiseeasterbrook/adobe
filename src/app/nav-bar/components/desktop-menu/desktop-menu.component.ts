@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { NavData } from 'src/app/models/nav';
 
 @Component({
   selector: 'desktop-menu',
@@ -6,19 +7,21 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   styleUrls: ['./desktop-menu.component.scss']
 })
 export class DesktopMenuComponent implements OnInit {
-  @Output() navClicked: EventEmitter<string> = new EventEmitter();
-  @Input() currentDropDownId: string = '';
+  @Output() navClicked: EventEmitter<number> = new EventEmitter();
+  @Input() currentDropDownId: number = 0;
   @Input() showDropDown: boolean = false;
+  @Input() navData: NavData[] | null = null;
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+  }
 
-  optionClick(id: string) {
+  optionClick(id: number) {
     this.navClicked.emit(id);
   }
 
-  isOpen(id: string) {
+  isOpen(id: number) {
     return this.showDropDown && this.currentDropDownId === id;
   }
 }

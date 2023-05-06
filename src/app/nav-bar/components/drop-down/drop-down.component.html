@@ -1,7 +1,19 @@
-<div class="drop-down-outer">
+<div class="drop-down-outer" *ngIf="navData">
   <div class="drop-down-inner">
-    <!-- <p>drop-down works!</p>
-    <p>{{ id }}</p> -->
-    <menu-creativity></menu-creativity>
+    <div *ngIf="selectedId === navData[0].Id">
+      <menu-creativity [linkList]="navData[0].SubHeadingList"></menu-creativity>
+    </div>
+
+    <div *ngIf="selectedId === navData[1].Id">
+      <menu-pdf [linkList]="navData[1].SubHeadingList"></menu-pdf>
+    </div>
+
+    <div *ngIf="selectedId === navData[2].Id">
+      <menu-marketing [linkList]="navData[2].SubHeadingList"></menu-marketing>
+    </div>
+
+    <div *ngIf="selectedId === navData[3].Id">
+      <menu-help [linkList]="navData[3].SubHeadingList"></menu-help>
+    </div>
   </div>
 </div>
