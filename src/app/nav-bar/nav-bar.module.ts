@@ -18,6 +18,7 @@ import {
 } from './components/index';
 
 import { SharedComponentsModule } from '../shared-components/shared-components.module';
+import { NavCardComponent } from './components/nav-card/nav-card.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SharedComponentsModule } from '../shared-components/shared-components.m
     LinkStackComponent,
     MenuPdfComponent,
     MenuMarketingComponent,
-    MenuHelpComponent
+    MenuHelpComponent,
+    NavCardComponent
   ],
   imports: [CommonModule, BrowserModule, SharedComponentsModule, MatIconModule],
   exports: [NavBarComponent],
