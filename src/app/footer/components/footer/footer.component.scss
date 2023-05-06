@@ -4,4 +4,11 @@
     background-color: $background-grey-light;
     padding: 40px 20px 20px 20px;
     margin-top: 30px;
+
+    .prod-links{
+        @media (max-width: $breakpoint-sm) {
+            display: none;
+            
+        }
+    }
 }

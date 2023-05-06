@@ -1,9 +1,30 @@
 @import '../../../../styles.scss';
 
 .footer-links-container{
-    display: flex;
-    width:90%;
-    align-items: flex-start;
-    justify-content: space-between;
     padding-bottom: 60px;
+
+    .desktop-links{
+        display: flex;
+        width:95%;
+        align-items: flex-start;
+        justify-content: space-between;
+        @media(max-width: $breakpoint-md){
+            display: none;
+        }
+
+        .link-col{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+
+    .mobile-links{
+        width:100%;
+        @media(min-width: $breakpoint-md){
+            display: none;
+        }
+
+    }
 }
+

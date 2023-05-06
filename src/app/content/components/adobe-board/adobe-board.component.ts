@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Theme } from 'src/app/models/theme';
 
 @Component({
@@ -8,8 +8,20 @@ import { Theme } from 'src/app/models/theme';
 })
 export class AdobeBoardComponent implements OnInit {
   Theme = Theme;
+  currentTheme = Theme.light;
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.setTheme(window.innerWidth);
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onWindowResize() {
+    this.setTheme(window.innerWidth);
+  }
+
+  setTheme(screenWidth: number) {
+    this.currentTheme = screenWidth >= 1200 ? Theme.light : Theme.dark;
+  }
 }

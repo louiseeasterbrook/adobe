@@ -1,0 +1,37 @@
+@import '../../../../styles.scss';
+
+.region-cont{
+    display: flex;
+    align-items: center;
+
+    mat-icon{
+        color: $text-grey-light;
+        font-size: 16px;
+        width: 16px;
+        height: 16px;;
+    }
+
+    .globe{
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        padding-right: 4px;
+    }
+
+    p{
+        font-size: 10px;
+        color: $text-grey-light;
+        font-weight: 200;
+        padding-right: 2px;
+    }
+}
+
+.region-cont:hover{
+    cursor: pointer;
+    p{
+        color: $text-grey-hover
+    }
+    mat-icon{
+        color: $text-grey-hover
+    }
+}

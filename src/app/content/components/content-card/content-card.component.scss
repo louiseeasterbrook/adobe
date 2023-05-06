@@ -2,16 +2,24 @@
 
 .content-card-outer{
     position: relative;
-    max-height: 550px;
+    // height: 480px;
+    // overflow: hidden;
+    // width: 100%;
+    
+    // border: 2px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 
     picture{
+        object-fit: cover;
         width: 100%;
-        display: block;
+        // height: 100%;
     }
 
     picture > *{
-        width: 100%;
+    width: 100%;
 
     }
 

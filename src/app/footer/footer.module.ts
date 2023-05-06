@@ -8,11 +8,13 @@ import {
   SocialLinksComponent,
   ProductLinksComponent,
   FooterLinksComponent,
-  LinkListComponent
+  LinkListComponent,
+  FooterDropDownComponent
 } from './components/index';
 
 import { SharedComponentsModule } from '../shared-components/shared-compnents.module';
 import { MatIconModule } from '@angular/material/icon';
+import { RegionPickerComponent } from './components/region-picker/region-picker.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { MatIconModule } from '@angular/material/icon';
     FooterLinksComponent,
     ProductLinksComponent,
     SocialLinksComponent,
-    ProductDisplayComponent
+    ProductDisplayComponent,
+    FooterDropDownComponent,
+    RegionPickerComponent
   ],
   imports: [CommonModule, BrowserModule, SharedComponentsModule, MatIconModule],
   exports: [FooterComponent],

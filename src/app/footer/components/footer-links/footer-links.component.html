@@ -1,17 +1,25 @@
 <div class="footer-links-container">
-  <div class="fcol-1">
-    <link-list title="Shop for" [linkList]="linkList"></link-list>
+  <div class="desktop-links">
+    <div class="link-col" *ngFor="let list of linkLists">
+      <link-list
+        *ngFor="let item of list"
+        [title]="item.Title"
+        [linkList]="item.Links"
+      ></link-list>
+    </div>
   </div>
-  <div class="fcol-2">
-    <link-list title="Shop for" [linkList]="linkList"></link-list>
-  </div>
-  <div class="fcol-3">
-    <link-list title="Shop for" [linkList]="linkList"></link-list>
-  </div>
-  <div class="fcol-4">
-    <link-list title="Shop for" [linkList]="linkList"></link-list>
-  </div>
-  <div class="fcol-5">
-    <link-list title="Shop for" [linkList]="linkList"></link-list>
+
+  <div class="mobile-links">
+    <div *ngFor="let list of linkLists">
+      <footer-drop-down
+        *ngFor="let item of list"
+        [title]="item.Title"
+        [linkList]="item.Links"
+        [id]="item.Id"
+        [topBorder]="item.Id === 0"
+        [open]="isOpen(item.Id)"
+        (selected)="optionSelected($event)"
+      ></footer-drop-down>
+    </div>
   </div>
 </div>

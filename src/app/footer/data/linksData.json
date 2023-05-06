@@ -1,0 +1,112 @@
+[
+    [
+        {
+            "Title":"Shop for",
+            "Id": 0,
+            "Links":[
+            "Creative Cloud",
+            "Photoshop",
+            "Photography",
+            "Premiere Pro",
+            "Adobe Stock",
+            "Elements Family",
+            "Document Cloud",
+            "Acrobat",
+            "Acrobat Sign",
+            "Special offers",
+            "View plans and pricing",
+            "View all products"
+            ]
+        }
+    ],
+    [
+        {
+            "Title":"For business",
+            "Id": 1,
+            "Links":[
+            "Creative Cloud for teams",
+            "Creative Cloud for enterprise",
+            "Document Cloud for business"
+            ]
+        },
+        {
+            "Title":"For education",
+            "Id": 2,
+            "Links":[
+                "Documents for students and teachers",
+                "Schools and universities",
+                "Digital Learning Solutions"
+            ]
+        },
+        {
+            "Title":"For mobile",
+            "Id": 3,
+            "Links":[
+                "Apps for iOS",
+                "Apps for Android"
+            ]
+        }
+    ],
+    [
+        {
+            "Title":"Experience Cloud",
+            "Id": 4,
+            "Links":[
+            "What is Experience Cloud?",
+            "Analytics",
+            "Experience Manager",
+            "Commerce",
+            "Marketo Engage",
+            "Workfront",
+            "Terms of Use"
+            ]
+        }
+    ],
+    [
+        {
+            "Title":"Support",
+            "Id": 5,
+            "Links":[
+            "Download and install",
+            "Help Centre",
+            "Adobe Support Community",
+            "Enterprise Support",
+            "Genuine software"
+            ]
+        },
+        {
+            "Title":"Resources",
+            "Id": 6,
+            "Links":[
+                "Adobe Blog",
+                "Adobe I/O"
+            ]
+        },
+        {
+            "Title":"Adobe Account",
+            "Id": 7,
+            "Links":[
+                "Log in to your account"
+            ]
+        }
+    ],
+    [
+        {
+            "Title":"Adobe",
+            "Id": 8,
+            "Links":[
+            "About",
+            "Careers",
+            "Newsroom",
+            "Corporate responsibility",
+            "Investor Relations",
+            "Supply chain",
+            "Trust Centre",
+            "Events",
+            "Diversity and inclusion",
+            "Integrity"
+            ]
+        }
+    ]
+]
+
