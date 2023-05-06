@@ -1,0 +1,20 @@
+<div class="menu-outer">
+  <div *ngFor="let data of linkData; let i = index" class="menu-col">
+    <content-button
+      *ngIf="i === 0"
+      text="What is Creative Cloud"
+      description="Creative apps and services for everyone"
+    >
+      <img
+        class="content-btn-img"
+        src="../../../../assets/images/creative-cloud-icon.svg"
+        alt="creative cloud icon"
+    /></content-button>
+
+    <link-stack *ngFor="let set of data" [data]="set"></link-stack>
+
+    <div *ngIf="i === 0" class="btn-wrapper">
+      <basic-button text="View plans and pricing"></basic-button>
+    </div>
+  </div>
+</div>

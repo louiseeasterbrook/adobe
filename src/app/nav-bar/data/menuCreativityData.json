@@ -1,0 +1,114 @@
+[
+    [
+        {
+            "SectionTitle":null,
+            "Id": 0,
+            "Links":[
+                {
+                    "Title":"Photographers",
+                    "Description":"Lightroom, Photoshop and more"
+                },
+                {
+                    "Title":"Student and teachers",
+                    "Description":"Save over 70% on Creative Cloud"
+                },
+                {
+                    "Title":"Individuals",
+                    "Description":"Personal plan with over 20 apps including Acrobat"
+                },
+                {
+                    "Title":"Small and medium businesses",
+                    "Description":"Creative app and services for teams"
+                },
+                {
+                    "Title":"Enterprise",
+                    "Description":"Solutions for large organisations"
+                },
+                {
+                    "Title":"Schools and universities",
+                    "Description":"Simple Administration and licensing"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "SectionTitle":"Featured Products",
+            "Id": 1,
+            "Links":[
+                {
+                    "Title":"Photoshop",
+                    "Description":"Image editing and design"
+                },
+                {
+                    "Title":"Adobe Express",
+                    "Description":"Social graphics and more"
+                },
+                {
+                    "Title":"Lightroom",
+                    "Description":"The cloud-based photo service"
+                },
+                {
+                    "Title":"Illustrator",
+                    "Description":"Vector graphics and illusion"
+                },
+                {
+                    "Title":"Premiere Pro",
+                    "Description":"Video editing and production"
+                },
+                {
+                    "Title":"Adobe Stock",
+                    "Description":"High-quality licensable assets"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "SectionTitle":"Explore",
+            "Id": 2,
+            "Links":[
+                {
+                    "Title":"Photo",
+                    "Description":null
+                },
+                {
+                    "Title":"Graphic Design",
+                    "Description":null
+                },
+                {
+                    "Title":"Video",
+                    "Description":null
+                },
+                {
+                    "Title":"Illustration",
+                    "Description":null
+                },
+                {
+                    "Title":"Social Media",
+                    "Description":null
+                },
+                {
+                    "Title":"3D & AR",
+                    "Description":null
+                },  
+                {
+                    "Title":"PDF",
+                    "Description":null
+                }
+                
+            ]
+        },
+        {
+            "SectionTitle":"New Releases",
+            "Id": 3,
+            "Links":[
+                {
+                    "Title":"Adobe Firefly",
+                    "Description":"AI-powered content creation"
+                }
+            ]
+        }
+    ]
+    
+]

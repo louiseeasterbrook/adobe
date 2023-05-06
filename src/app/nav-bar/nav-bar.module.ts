@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatIconModule } from '@angular/material/icon';
 
 import {
   NavBarComponent,
   BarOptionComponent,
-  DropDownComponent
+  DropDownComponent,
+  LinkStackComponent,
+  MenuCreativityComponent,
+  MobileDropDownComponent,
+  DesktopMenuComponent,
+  SearchBarComponent
 } from './components/index';
 
-import { SharedComponentsModule } from '../shared-components/shared-compnents.module';
-import { SearchBarComponent } from './components/search-bar/search-bar.component';
-import { MatIconModule } from '@angular/material/icon';
-import { DesktopMenuComponent } from './components/desktop-menu/desktop-menu.component';
-import { MobileDropDownComponent } from './components/mobile-drop-down/mobile-drop-down.component';
+import { SharedComponentsModule } from '../shared-components/shared-components.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,10 @@ import { MobileDropDownComponent } from './components/mobile-drop-down/mobile-dr
     DropDownComponent,
     SearchBarComponent,
     DesktopMenuComponent,
-    MobileDropDownComponent
+    MobileDropDownComponent,
+    MenuCreativityComponent,
+    MenuCreativityComponent,
+    LinkStackComponent
   ],
   imports: [CommonModule, BrowserModule, SharedComponentsModule, MatIconModule],
   exports: [NavBarComponent],

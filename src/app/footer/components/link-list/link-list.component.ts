@@ -12,6 +12,5 @@ export class LinkListComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log(this.linkList);
   }
 }

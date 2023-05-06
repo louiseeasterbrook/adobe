@@ -1,0 +1,11 @@
+<div *ngIf="data" class="stack-outer">
+  <div *ngIf="data.SectionTitle != null" class="header">
+    <h4>{{ data.SectionTitle }}</h4>
+  </div>
+  
+  <content-button
+    *ngFor="let link of data.Links"
+    [text]="link.Title"
+    [description]="link.Description"
+  ></content-button>
+</div>

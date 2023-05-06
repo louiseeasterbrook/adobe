@@ -3,13 +3,21 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 //components
-import { BasicButtonComponent, BareButtonComponent } from './components/index';
+import {
+  BasicButtonComponent,
+  BareButtonComponent,
+  ContentButtonComponent
+} from './components/index';
 
 @NgModule({
-  declarations: [BasicButtonComponent, BareButtonComponent],
+  declarations: [
+    BasicButtonComponent,
+    BareButtonComponent,
+    ContentButtonComponent
+  ],
   imports: [BrowserModule, CommonModule],
   providers: [],
   bootstrap: [],
-  exports: [BasicButtonComponent, BareButtonComponent]
+  exports: [BasicButtonComponent, BareButtonComponent, ContentButtonComponent]
 })
 export class SharedComponentsModule {}

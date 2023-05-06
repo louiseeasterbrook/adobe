@@ -1,11 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-const ok = require('../../data/linksData.json');
-
-interface Link {
-  Title: string;
-  Id: number;
-  Links: string[];
-}
+import { FooterLink } from 'src/app/models/footer';
+const data = require('../../data/linksData.json');
 
 @Component({
   selector: 'footer-links',
@@ -15,7 +10,7 @@ interface Link {
 export class FooterLinksComponent implements OnInit {
   linkList: string[] = [];
   selectedId: number = -1;
-  linkLists: Link[][] = ok;
+  linkLists: FooterLink[][] = data;
 
   constructor() {}
 

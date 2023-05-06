@@ -1,0 +1,7 @@
+<button class="content-btn-wrapper" (click)="pressed()">
+  <ng-content></ng-content>
+  <div class="text">
+    <h5>{{ text }}</h5>
+    <p *ngIf="description">{{ description }}</p>
+  </div>
+</button>

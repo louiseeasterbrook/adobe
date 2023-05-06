@@ -18,6 +18,5 @@ export class CreativeCloudsLinksComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log(this.titles);
   }
 }

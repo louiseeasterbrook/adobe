@@ -2,7 +2,16 @@
 
 .drop-down-outer{
     background-color: $background-grey-light;
-    padding-bottom: 32px;
+    padding: 32px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .drop-down-inner{
+        width: 100%;
+        max-width: 1200px;
+        padding:10px;
+    }
 }
 
 p{

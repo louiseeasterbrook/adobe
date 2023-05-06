@@ -10,6 +10,7 @@ $text-grey-dark: #505050;
 $charcoal: #2c2c2c;
 $background-grey-mid: #e0e0e0;
 $background-grey-light: #f8f8f8;
+$background-grey-hover: #efefef;
 
 //red
 $adobe-red: #fa0f00;
@@ -58,10 +59,23 @@ body {
     font-weight: 200;
 }
 
+.content-btn-img{
+    width:30px;
+    width:30px;
+}
+
 .dark{
     color: #000000;
 }
 
 .light{
     color: #ffffff;
+}
+
+
+//TEXT
+///////////////////////////////////////////////
+p, h5, h4{
+    margin:0;
+    padding:0;
 }

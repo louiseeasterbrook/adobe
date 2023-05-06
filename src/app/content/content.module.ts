@@ -1,7 +1,6 @@
-import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { SharedComponentsModule } from '../shared-components/shared-compnents.module';
+import { SharedComponentsModule } from '../shared-components/shared-components.module';
 
 //modules
 import {
