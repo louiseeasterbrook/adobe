@@ -13,8 +13,5 @@ export class DropDownComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    if(this.navData){
-    console.log("nsv ", this.navData)
-    }
   }
 }
