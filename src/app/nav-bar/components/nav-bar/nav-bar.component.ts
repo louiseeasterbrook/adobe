@@ -22,7 +22,13 @@ export class NavBarComponent implements OnInit {
   ngOnInit(): void {
     this.navData = data;
   }
-
+  @HostListener('window:resize')
+  onResize() {
+    if (document.documentElement.clientWidth < 900) {
+      this.showDropDown = false;
+    }
+  }
+  
   @HostListener('document:scroll')
   scrollFunction() {
     if (
