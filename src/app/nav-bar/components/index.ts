@@ -9,3 +9,4 @@ export * from './search-bar/search-bar.component';
 export * from './menu-pdf/menu-pdf.component'
 export * from './menu-help/menu-help.component'
 export * from './menu-marketing/menu-marketing.component'
+export * from './nav-card/nav-card.component'

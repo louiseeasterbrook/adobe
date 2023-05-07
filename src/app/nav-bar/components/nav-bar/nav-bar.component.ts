@@ -13,7 +13,7 @@ export class NavBarComponent implements OnInit {
   currentDropDownId: number = 0;
   showMobileMenu: boolean = false;
   currentPosition: number = 0;
-  hideNav: boolean = true;
+  hideNav: boolean = false;
 
   navData: NavData[] | null = null;
 
@@ -26,6 +26,7 @@ export class NavBarComponent implements OnInit {
   @HostListener('document:scroll')
   scrollFunction() {
     if (
+      this.currentPosition < 100 ||
       document.documentElement.scrollTop < 100 ||
       document.documentElement.scrollTop < this.currentPosition - 5
     ) {

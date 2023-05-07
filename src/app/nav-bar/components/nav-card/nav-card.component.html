@@ -1,8 +1,11 @@
-<div class="card-wrapper">
-  <!-- <ng-content select="selector"></ng-content> -->
+<div
+  class="card-wrapper"
+  [ngClass]="{ darkCard: theme == Theme.dark, lightCard: theme == Theme.light }"
+>
+  <ng-content></ng-content>
   <div class="card-text-wrapper">
-    <h3>{{ title }}</h3>
-    <p>{{ subTitle }}</p>
-    <a href="#">{{ cta }}</a>
+    <h3 *ngIf="title">{{ title }}</h3>
+    <p *ngIf="subTitle">{{ subTitle }}</p>
+    <a *ngIf="cta" href="#">{{ cta }}</a>
   </div>
 </div>

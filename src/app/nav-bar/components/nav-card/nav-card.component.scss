@@ -1,0 +1,52 @@
+@import '../../../../styles.scss';
+
+.card-wrapper{
+ width:250px;
+
+    .card-text-wrapper{
+        padding:24px;
+
+        h3{
+            font-size: 14px;
+            padding-bottom: 12px;
+            font-weight: 500px;
+        }
+
+        p{
+            font-size: 11px;
+            padding-bottom: 12px;
+        }
+
+        a{
+            font-size: 13px;
+        }
+
+    }
+}
+
+.darkCard{
+    background-color: #000000;
+
+    .card-text-wrapper{
+        color:white;
+    }
+
+    a{
+        color:white;
+    }
+
+}
+
+.lightCard{
+    background-color: #ffffff;
+    border: 1px solid $background-grey-mid;
+
+    .card-text-wrapper{
+        color:#000000;
+    }
+
+    a{
+        color:$basic-blue;
+    }
+
+}

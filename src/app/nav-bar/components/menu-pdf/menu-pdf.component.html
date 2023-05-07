@@ -2,4 +2,14 @@
   <div *ngFor="let data of linkList; let i = index" class="menu-col">
     <link-stack *ngFor="let set of data" [data]="set"></link-stack>
   </div>
+  <div class="menu-col nav-card">
+    <nav-card
+      title="Acrobat Pro"
+      subTitle="Create, edit and sign documents with our all-in-one PDF and e-signature solution."
+      cta="Start free trial"
+      [theme]="Theme.light"
+    >
+      <img src="../../../../assets/images/nav-pdf.webp" alt="" class="card-img"
+    /></nav-card>
+  </div>
 </div>

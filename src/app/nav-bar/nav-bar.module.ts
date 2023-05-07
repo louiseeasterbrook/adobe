@@ -14,11 +14,11 @@ import {
   SearchBarComponent,
   MenuHelpComponent,
   MenuMarketingComponent,
-  MenuPdfComponent
+  MenuPdfComponent,
+  NavCardComponent
 } from './components/index';
 
 import { SharedComponentsModule } from '../shared-components/shared-components.module';
-import { NavCardComponent } from './components/nav-card/nav-card.component';
 
 @NgModule({
   declarations: [
