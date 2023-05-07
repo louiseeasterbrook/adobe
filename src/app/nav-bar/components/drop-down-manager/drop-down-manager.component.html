@@ -4,18 +4,13 @@
     class="dd-inner"
     (click)="navClick($event)"
   >
-    <div class="desktop-dd">
-      <div *ngIf="showDesktopDropDown">
-        <desktop-drop-down [selectedId]="selectedIdDesktop"></desktop-drop-down>
-      </div>
+    <desktop-drop-down
+      *ngIf="showDesktopDropDown"
+      [selectedId]="selectedIdDesktop"
+    ></desktop-drop-down>
 
-      <div *ngIf="showSearchBar">
-        <search-bar></search-bar>
-      </div>
-    </div>
+    <search-bar *ngIf="showSearchBar"></search-bar>
 
-    <div *ngIf="showMobileDropDown">
-      <mobile-drop-down></mobile-drop-down>
-    </div>
+    <mobile-drop-down *ngIf="showMobileDropDown"></mobile-drop-down>
   </div>
 </div>
