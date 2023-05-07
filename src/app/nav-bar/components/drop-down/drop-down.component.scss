@@ -6,6 +6,9 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    -moz-box-shadow: 0 4px 4px rgba(131, 131, 131, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(131, 131, 131, 0.4);
+    box-shadow: 0 4px 4px rgba(131, 131, 131, 0.4);
 
     .drop-down-inner{
         width: 100%;

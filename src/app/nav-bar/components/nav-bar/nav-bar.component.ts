@@ -28,7 +28,7 @@ export class NavBarComponent implements OnInit {
       this.showDropDown = false;
     }
   }
-  
+
   @HostListener('document:scroll')
   scrollFunction() {
     if (
@@ -68,5 +68,11 @@ export class NavBarComponent implements OnInit {
 
   clickMobileMenuButton() {
     this.showMobileMenu = !this.showMobileMenu;
+  }
+
+  navClick(event: { target: any }) {
+    if (event.target.classList[0] === 'dd-outer') {
+      this.closeMenus();
+    }
   }
 }

@@ -32,15 +32,24 @@
     </div>
   </div>
 
-  <div *ngIf="showDropDown" class="drop-down-wrapper">
-    <drop-down [selectedId]="currentDropDownId" [navData]="navData"></drop-down>
-  </div>
+  <div
+    *ngIf="showMobileMenu || showDropDown || showSearchBar"
+    class="dd-outer"
+    (click)="navClick($event)"
+  >
+    <div *ngIf="showDropDown" class="drop-down-wrapper">
+      <drop-down
+        [selectedId]="currentDropDownId"
+        [navData]="navData"
+      ></drop-down>
+    </div>
 
-  <div *ngIf="showSearchBar" class="drop-down-wrapper">
-    <search-bar></search-bar>
-  </div>
+    <div *ngIf="showSearchBar" class="drop-down-wrapper">
+      <search-bar></search-bar>
+    </div>
 
-  <div *ngIf="showMobileMenu" class="drop-down-wrapper">
-    <mobile-drop-down></mobile-drop-down>
+    <div *ngIf="showMobileMenu" class="drop-down-wrapper">
+      <mobile-drop-down></mobile-drop-down>
+    </div>
   </div>
 </div>
