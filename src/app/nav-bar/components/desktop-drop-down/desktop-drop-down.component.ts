@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { NavData } from 'src/app/models/nav';
+import { NavBarService } from '../../services/nav-bar.service';
 
 @Component({
   selector: 'desktop-drop-down',
@@ -8,10 +9,11 @@ import { NavData } from 'src/app/models/nav';
 })
 export class DropDownComponent implements OnInit {
   @Input() selectedId: number = 0;
-  @Input() navData: NavData[] | null = null;
+  navData: NavData[] | null = null;
 
-  constructor() {}
+  constructor(private navBarService: NavBarService) {}
 
   ngOnInit(): void {
+    this.navData = this.navBarService.getNavData();
   }
 }

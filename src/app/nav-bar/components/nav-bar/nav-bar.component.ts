@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { NavData } from 'src/app/models/nav';
+import { NavBarService } from '../../services/nav-bar.service';
 const data = require('../../data/navData.json');
 
 @Component({
@@ -10,18 +11,20 @@ const data = require('../../data/navData.json');
 export class NavBarComponent implements OnInit {
   showDesktopDropDown: boolean = false;
   showSearchBar: boolean = false;
-  currentDropDownId: number = 0;
+  selectedIdDesktop: number = 0;
   showMobileDropDown: boolean = false;
   currentPosition: number = 0;
   hideNav: boolean = false;
 
   navData: NavData[] | null = null;
 
-  constructor() {}
+  constructor(private navBarService: NavBarService) {}
 
   ngOnInit(): void {
     this.navData = data;
+    this.navBarService.setNavData(this.navData);
   }
+
   @HostListener('window:resize')
   onResize() {
     if (document.documentElement.clientWidth < 900) {
@@ -52,13 +55,13 @@ export class NavBarComponent implements OnInit {
 
   clickNavOption(id: number) {
     this.showSearchBar = false;
-    if (this.showDesktopDropDown && this.currentDropDownId === id) {
+    if (this.showDesktopDropDown && this.selectedIdDesktop === id) {
       this.showDesktopDropDown = false;
       return;
     }
 
     this.showDesktopDropDown = true;
-    this.currentDropDownId = id;
+    this.selectedIdDesktop = id;
   }
 
   showSearch() {

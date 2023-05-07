@@ -17,7 +17,6 @@ import {
   ],
   imports: [BrowserModule, CommonModule],
   providers: [],
-  bootstrap: [],
   exports: [BasicButtonComponent, BareButtonComponent, ContentButtonComponent]
 })
 export class SharedComponentsModule {}

@@ -5,10 +5,7 @@
     (click)="navClick($event)"
   >
     <div *ngIf="showDesktopDropDown">
-      <!-- <desktop-drop-down
-      [selectedId]="currentDropDownId"
-      [navData]="navData"
-    ></desktop-drop-down> -->
+      <desktop-drop-down [selectedId]="selectedIdDesktop"></desktop-drop-down>
     </div>
 
     <div *ngIf="showSearchBar">

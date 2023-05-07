@@ -9,6 +9,7 @@ export class DropDownManagerComponent implements OnInit {
   @Input() showMobileDropDown: boolean = false;
   @Input() showDesktopDropDown: boolean = false;
   @Input() showSearchBar: boolean = false;
+  @Input() selectedIdDesktop: number = 0;
   @Output() closeNav = new EventEmitter();
 
   constructor() {}

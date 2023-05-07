@@ -15,7 +15,7 @@
         <desktop-menu
           (navClicked)="clickNavOption($event)"
           [showDropDown]="showDesktopDropDown"
-          [currentDropDownId]="currentDropDownId"
+          [currentDropDownId]="selectedIdDesktop"
           [navData]="navData"
         ></desktop-menu>
       </div>
@@ -36,6 +36,7 @@
     [showDesktopDropDown]="showDesktopDropDown"
     [showSearchBar]="showSearchBar"
     [showMobileDropDown]="showMobileDropDown"
+    [selectedIdDesktop]="selectedIdDesktop"
     (closeNav)="closeMenus()"
   ></drop-down-manager>
 </div>

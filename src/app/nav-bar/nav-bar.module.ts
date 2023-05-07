@@ -41,8 +41,6 @@ import { SharedComponentsModule } from '../shared-components/shared-components.m
     DropDownManagerComponent
   ],
   imports: [CommonModule, BrowserModule, SharedComponentsModule, MatIconModule],
-  exports: [NavBarComponent],
-  providers: [],
-  bootstrap: []
+  exports: [NavBarComponent]
 })
 export class NavBarModule {}

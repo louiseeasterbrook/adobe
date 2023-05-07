@@ -9,12 +9,12 @@ import {
   ProductLinksComponent,
   FooterLinksComponent,
   LinkListComponent,
-  FooterDropDownComponent
+  FooterDropDownComponent,
+  RegionPickerComponent
 } from './components/index';
 
 import { SharedComponentsModule } from '../shared-components/shared-components.module';
 import { MatIconModule } from '@angular/material/icon';
-import { RegionPickerComponent } from './components/region-picker/region-picker.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,6 @@ import { RegionPickerComponent } from './components/region-picker/region-picker.
   ],
   imports: [CommonModule, BrowserModule, SharedComponentsModule, MatIconModule],
   exports: [FooterComponent],
-  providers: [],
-  bootstrap: []
+  providers: []
 })
 export class FooterModule {}
