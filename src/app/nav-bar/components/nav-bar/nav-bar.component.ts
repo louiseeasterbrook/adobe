@@ -8,10 +8,10 @@ const data = require('../../data/navData.json');
   styleUrls: ['./nav-bar.component.scss']
 })
 export class NavBarComponent implements OnInit {
-  showDropDown: boolean = false;
+  showDesktopDropDown: boolean = false;
   showSearchBar: boolean = false;
   currentDropDownId: number = 0;
-  showMobileMenu: boolean = false;
+  showMobileDropDown: boolean = false;
   currentPosition: number = 0;
   hideNav: boolean = false;
 
@@ -25,7 +25,7 @@ export class NavBarComponent implements OnInit {
   @HostListener('window:resize')
   onResize() {
     if (document.documentElement.clientWidth < 900) {
-      this.showDropDown = false;
+      this.showDesktopDropDown = false;
     }
   }
 
@@ -45,34 +45,28 @@ export class NavBarComponent implements OnInit {
   }
 
   closeMenus() {
-    this.showDropDown = false;
+    this.showDesktopDropDown = false;
     this.showSearchBar = false;
-    this.showMobileMenu = false;
+    this.showMobileDropDown = false;
   }
 
   clickNavOption(id: number) {
     this.showSearchBar = false;
-    if (this.showDropDown && this.currentDropDownId === id) {
-      this.showDropDown = false;
+    if (this.showDesktopDropDown && this.currentDropDownId === id) {
+      this.showDesktopDropDown = false;
       return;
     }
 
-    this.showDropDown = true;
+    this.showDesktopDropDown = true;
     this.currentDropDownId = id;
   }
 
   showSearch() {
     this.showSearchBar = !this.showSearchBar;
-    this.showDropDown = false;
+    this.showDesktopDropDown = false;
   }
 
   clickMobileMenuButton() {
-    this.showMobileMenu = !this.showMobileMenu;
-  }
-
-  navClick(event: { target: any }) {
-    if (event.target.classList[0] === 'dd-outer') {
-      this.closeMenus();
-    }
+    this.showMobileDropDown = !this.showMobileDropDown;
   }
 }

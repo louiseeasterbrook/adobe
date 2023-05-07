@@ -2,8 +2,8 @@
   <div class="nav-inner">
     <div class="left-section">
       <div class="mobile-button" (click)="clickMobileMenuButton()">
-        <mat-icon [class.hide]="showMobileMenu">dehaze</mat-icon>
-        <mat-icon [class.hide]="!showMobileMenu">close</mat-icon>
+        <mat-icon [class.hide]="showMobileDropDown">dehaze</mat-icon>
+        <mat-icon [class.hide]="!showMobileDropDown">close</mat-icon>
       </div>
 
       <div class="logo-wrapper">
@@ -14,7 +14,7 @@
       <div class="desktop-menu-wrapper">
         <desktop-menu
           (navClicked)="clickNavOption($event)"
-          [showDropDown]="showDropDown"
+          [showDropDown]="showDesktopDropDown"
           [currentDropDownId]="currentDropDownId"
           [navData]="navData"
         ></desktop-menu>
@@ -32,24 +32,10 @@
     </div>
   </div>
 
-  <div
-    *ngIf="showMobileMenu || showDropDown || showSearchBar"
-    class="dd-outer"
-    (click)="navClick($event)"
-  >
-    <div *ngIf="showDropDown" class="drop-down-wrapper">
-      <drop-down
-        [selectedId]="currentDropDownId"
-        [navData]="navData"
-      ></drop-down>
-    </div>
-
-    <div *ngIf="showSearchBar" class="drop-down-wrapper">
-      <search-bar></search-bar>
-    </div>
-
-    <div *ngIf="showMobileMenu" class="drop-down-wrapper">
-      <mobile-drop-down></mobile-drop-down>
-    </div>
-  </div>
+  <drop-down-manager
+    [showDesktopDropDown]="showDesktopDropDown"
+    [showSearchBar]="showSearchBar"
+    [showMobileDropDown]="showMobileDropDown"
+    (closeNav)="closeMenus()"
+  ></drop-down-manager>
 </div>

@@ -1,0 +1,22 @@
+<div class="dd-outer">
+  <div
+    *ngIf="showMobileDropDown || showDesktopDropDown || showSearchBar"
+    class="dd-inner"
+    (click)="navClick($event)"
+  >
+    <div *ngIf="showDesktopDropDown">
+      <!-- <desktop-drop-down
+      [selectedId]="currentDropDownId"
+      [navData]="navData"
+    ></desktop-drop-down> -->
+    </div>
+
+    <div *ngIf="showSearchBar">
+      <search-bar></search-bar>
+    </div>
+
+    <div *ngIf="showMobileDropDown">
+      <mobile-drop-down></mobile-drop-down>
+    </div>
+  </div>
+</div>

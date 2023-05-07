@@ -2,9 +2,9 @@ import { Component, Input, OnInit } from '@angular/core';
 import { NavData } from 'src/app/models/nav';
 
 @Component({
-  selector: 'drop-down',
-  templateUrl: './drop-down.component.html',
-  styleUrls: ['./drop-down.component.scss']
+  selector: 'desktop-drop-down',
+  templateUrl: './desktop-drop-down.component.html',
+  styleUrls: ['./desktop-drop-down.component.scss']
 })
 export class DropDownComponent implements OnInit {
   @Input() selectedId: number = 0;

@@ -15,7 +15,9 @@ import {
   MenuHelpComponent,
   MenuMarketingComponent,
   MenuPdfComponent,
-  NavCardComponent
+  NavCardComponent,
+  NavDropDownComponent,
+  DropDownManagerComponent
 } from './components/index';
 
 import { SharedComponentsModule } from '../shared-components/shared-components.module';
@@ -34,7 +36,9 @@ import { SharedComponentsModule } from '../shared-components/shared-components.m
     MenuPdfComponent,
     MenuMarketingComponent,
     MenuHelpComponent,
-    NavCardComponent
+    NavCardComponent,
+    NavDropDownComponent,
+    DropDownManagerComponent
   ],
   imports: [CommonModule, BrowserModule, SharedComponentsModule, MatIconModule],
   exports: [NavBarComponent],
