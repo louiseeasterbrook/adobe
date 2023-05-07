@@ -1,6 +1,7 @@
 @import '../../../../styles.scss';
 
 .opening-outer{
+    margin-top: $header-height;
     flex-direction: column;
     min-height: 600px;
     @media (max-width: $breakpoint-lg) {

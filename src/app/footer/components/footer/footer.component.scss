@@ -1,8 +1,11 @@
 @import '../../../../styles.scss';
 
-.footer-container{
+.footer-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: $background-grey-light;
-    padding: 40px 20px 20px 20px;
+    padding: 40px 0 20px 0;
     margin-top: 30px;
 
     .prod-links{
@@ -11,4 +14,11 @@
             
         }
     }
+
+    .footer-inner{
+        max-width: 1400px;
+        width:100%;
+        padding: 0 20px;
+    }
+
 }
