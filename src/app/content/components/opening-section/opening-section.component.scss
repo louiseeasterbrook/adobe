@@ -19,4 +19,19 @@
         }
 
     }
+
+    .adobe-container{
+        width: 100%;
+        height: 680px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../../../../assets/images/rainbow.jpeg');
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        @media (max-width: $breakpoint-lg) {
+            background-image: none;
+            height: 400px;
+        }
+    }
 }
