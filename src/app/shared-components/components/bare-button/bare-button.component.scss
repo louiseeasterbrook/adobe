@@ -1,13 +1,13 @@
 @import '../../../../styles.scss';
 
-.button-wrapper{
-    background-color: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 15px;
+.button-wrapper {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
 }
 
-.button-wrapper:hover{
-    text-decoration: underline;
+.button-wrapper:hover {
+  text-decoration: underline;
 }

@@ -1,34 +1,34 @@
 @import '../../../../styles.scss';
 
-.button-wrapper{
-    outline: none;
-    border-radius: 16px;
-    cursor: pointer;
-    font-size: 15px;
-    padding: 6px 12px;
-    transition: 0.2s;
-    border: none;
-    box-sizing: border-box;
+.button-wrapper {
+  outline: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 6px 12px;
+  transition: 0.2s;
+  border: none;
+  box-sizing: border-box;
 }
 
-.blueBtn{
-    background-color: $basic-blue;
-    border: 2px solid $basic-blue;
-    color: #FFFFFF;
+.blueBtn {
+  background-color: $basic-blue;
+  border: 2px solid $basic-blue;
+  color: #ffffff;
 }
 
-.blueBtn:hover{
-    background-color: $hover-blue;
-    border-color:$hover-blue;
+.blueBtn:hover {
+  background-color: $hover-blue;
+  border-color: $hover-blue;
 }
 
-.BWBtn{
-    background-color: transparent;
-    border: 2px solid $charcoal;
-    color: $charcoal;
+.BWBtn {
+  background-color: transparent;
+  border: 2px solid $charcoal;
+  color: $charcoal;
 }
 
-.BWBtn:hover{
-    background-color: $charcoal;
-    color: #FFFFFF;
+.BWBtn:hover {
+  background-color: $charcoal;
+  color: #ffffff;
 }

@@ -1,431 +1,428 @@
-
-    [
+[
+  {
+    "Heading": "Creativity & Design",
+    "Id": 1156,
+    "SubHeadingList": [
+      [
         {
-            "Heading":"Creativity & Design",
-            "Id": 1156,
-            "SubHeadingList":[
-                [
-                    {
-                        "SectionTitle":"Products",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Adobe Acrobat",
-                                "Description":"The complete pdf solution"
-                            },
-                            {
-                                "Title":"Adobe Acrobat Sign",
-                                "Description":"The complete e-signature solution"
-                            },
-                            {
-                                "Title":"Acrobat Reader",
-                                "Description":"View, scan, and annotate PDFs"
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "SectionTitle":"Featured products",
-                        "Id": 1,
-                        "Links":[
-                            {
-                                "Title":"Photoshop",
-                                "Description":"Image editing and design"
-                            },
-                            {
-                                "Title":"Adobe Express",
-                                "Description":"Social graphics and more"
-                            },
-                            {
-                                "Title":"Lightroom",
-                                "Description":"The cloud-based photo service"
-                            },
-                            {
-                                "Title":"Illustrator",
-                                "Description":"Vector graphics and illustration"
-                            },
-                            {
-                                "Title":"Premiere Pro",
-                                "Description":"Video editing and production"
-                            },
-                            {
-                                "Title":"Adobe Stock",
-                                "Description":"High-quality licensable assets"
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "SectionTitle":"Explore",
-                        "Id": 2,
-                        "Links":[
-                            {
-                                "Title":"Photo",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Graphic Design",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Video",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Illustrator",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Social media",
-                                "Description":null
-                            },
-                            {
-                                "Title":"3D & AR",
-                                "Description":null
-                            },
-                            {
-                                "Title":"PDF",
-                                "Description":null
-                            }
-                            
-                        ]
-                    },
-                    {
-                        "SectionTitle":"New releases",
-                        "Id": 3,
-                        "Links":[
-                            {
-                                "Title":"Adobe Firefly",
-                                "Description": "AI-powered content creation"
-                            }
-                        ]
-                    }
-                ]
-            ]
-        },
-        {
-            "Heading":"PDF & E-signatures",
-            "Id": 1276,
-            "SubHeadingList":[
-                [
-                    {
-                        "SectionTitle":"Products",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Adobe Acrobat",
-                                "Description":"The complete pdf solution"
-                            },
-                            {
-                                "Title":"Adobe Acrobat Sign",
-                                "Description":"The complete e-signature solution"
-                            },
-                            {
-                                "Title":"Acrobat Reader",
-                                "Description":"View, scan, and annotate PDFs"
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "SectionTitle":"Shop for",
-                        "Id": 1,
-                        "Links":[
-                            {
-                                "Title":"Small Business",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Enterprise",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Students & Teachers",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Home & Personal",
-                                "Description":null
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "SectionTitle":"Resources",
-                        "Id": 2,
-                        "Links":[
-                            {
-                                "Title":"Developer center",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Tutorials",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Events & Webinars",
-                                "Description":null
-                            },
-                            {
-                                "Title":"White Papers & Reports",
-                                "Description":null
-                            }
-                            
-                        ]
-                    },
-                    {
-                        "SectionTitle":"Online tools",
-                        "Id": 3,
-                        "Links":[
-                            {
-                                "Title":"PDF to Word",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Compress PDF",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Merge PDF",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Word to PDF",
-                                "Description":null
-                            },
-                            {
-                                "Title":"View all Tools",
-                                "Description":null
-                            }
-                        ]
-                    }
-                ]
-            ]
-        },
-        {
-            "Heading":"Marketing & commerce",
-            "Id": 1099,
-            "SubHeadingList":[
-                [
-                    {
-                        "SectionTitle":"Solutions",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Data insights and audiences",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Experience management platform",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Content management",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Commerce",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Customer journeys",
-                                "Description":null
-                            },
-                            {
-                                "Title":"B2B marketing",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Digital enrollment and onboarding",
-                                "Description":null
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "SectionTitle":"Products",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Analytics",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Real-Time CDP",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Marketo Engage",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Commerce (Magento)",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Workfront",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Customer Journey Analytics",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Journey Optimizer",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Experience Manager Site (CMS)",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Experience Manager Assets (CMS)",
-                                "Description":null
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "SectionTitle":"Resources",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Resource centre",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Customer success stories",
-                                "Description":null
-                            }
-                        ]
-                    },
-                    {
-                        "SectionTitle":"For customer",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Learn and documentation",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Community forums",
-                                "Description":null
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "SectionTitle":"Support",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Services and support",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Training",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Partners",
-                                "Description":null
-                            }
-                        ]
-                    },
-                    {
-                        "SectionTitle":"Events",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Adobe Summit",
-                                "Description":null
-                            }
-                        ]
-                    },
-                    {
-                        "SectionTitle":"Why Adobe",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Why partner with Adobe",
-                                "Description":null
-                            }
-                        ]
-                    }
-                ]
-            ]
-        },
-        {
-            "Heading":"Help & Support",
-            "Id": 1482,
-            "SubHeadingList":[
-                [
-                    {
-                        "SectionTitle":"Help and support",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Help Centre",
-                                "Description":"Troubleshooting and how-tos"
-                            },
-                            {
-                                "Title":"Enterprise Support",
-                                "Description":"Dedicated help for large organisations"
-                            },
-                            {
-                                "Title":"Adobe Support Community",
-                                "Description":null
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "SectionTitle":"Common tasks",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Manage my account",
-                                "Description":null
-                            },
-                            {
-                                "Title":"Manage my plan",
-                                "Description":null
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "SectionTitle":"Learning resources",
-                        "Id": 0,
-                        "Links":[
-                            {
-                                "Title":"Creative Cloud tutorials",
-                                "Description":"Learn with tutorials designed to inspire"
-                            },
-                            {
-                                "Title":"Adobe Express",
-                                "Description": "Quick videos to start a project"
-                            },
-                            {
-                                "Title":"Acrobat tutorials",
-                                "Description": "Learn the basics or refine your skills"
-                            },
-                            {
-                                "Title":"Acrobat Experience",
-                                "Description": "Personalised learning to develop your skills"
-                            }
-                        ]
-                    }
-                ]
-            ]
+          "SectionTitle": "Products",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Adobe Acrobat",
+              "Description": "The complete pdf solution"
+            },
+            {
+              "Title": "Adobe Acrobat Sign",
+              "Description": "The complete e-signature solution"
+            },
+            {
+              "Title": "Acrobat Reader",
+              "Description": "View, scan, and annotate PDFs"
+            }
+          ]
         }
+      ],
+      [
+        {
+          "SectionTitle": "Featured products",
+          "Id": 1,
+          "Links": [
+            {
+              "Title": "Photoshop",
+              "Description": "Image editing and design"
+            },
+            {
+              "Title": "Adobe Express",
+              "Description": "Social graphics and more"
+            },
+            {
+              "Title": "Lightroom",
+              "Description": "The cloud-based photo service"
+            },
+            {
+              "Title": "Illustrator",
+              "Description": "Vector graphics and illustration"
+            },
+            {
+              "Title": "Premiere Pro",
+              "Description": "Video editing and production"
+            },
+            {
+              "Title": "Adobe Stock",
+              "Description": "High-quality licensable assets"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "SectionTitle": "Explore",
+          "Id": 2,
+          "Links": [
+            {
+              "Title": "Photo",
+              "Description": null
+            },
+            {
+              "Title": "Graphic Design",
+              "Description": null
+            },
+            {
+              "Title": "Video",
+              "Description": null
+            },
+            {
+              "Title": "Illustrator",
+              "Description": null
+            },
+            {
+              "Title": "Social media",
+              "Description": null
+            },
+            {
+              "Title": "3D & AR",
+              "Description": null
+            },
+            {
+              "Title": "PDF",
+              "Description": null
+            }
+          ]
+        },
+        {
+          "SectionTitle": "New releases",
+          "Id": 3,
+          "Links": [
+            {
+              "Title": "Adobe Firefly",
+              "Description": "AI-powered content creation"
+            }
+          ]
+        }
+      ]
     ]
+  },
+  {
+    "Heading": "PDF & E-signatures",
+    "Id": 1276,
+    "SubHeadingList": [
+      [
+        {
+          "SectionTitle": "Products",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Adobe Acrobat",
+              "Description": "The complete pdf solution"
+            },
+            {
+              "Title": "Adobe Acrobat Sign",
+              "Description": "The complete e-signature solution"
+            },
+            {
+              "Title": "Acrobat Reader",
+              "Description": "View, scan, and annotate PDFs"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "SectionTitle": "Shop for",
+          "Id": 1,
+          "Links": [
+            {
+              "Title": "Small Business",
+              "Description": null
+            },
+            {
+              "Title": "Enterprise",
+              "Description": null
+            },
+            {
+              "Title": "Students & Teachers",
+              "Description": null
+            },
+            {
+              "Title": "Home & Personal",
+              "Description": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "SectionTitle": "Resources",
+          "Id": 2,
+          "Links": [
+            {
+              "Title": "Developer center",
+              "Description": null
+            },
+            {
+              "Title": "Tutorials",
+              "Description": null
+            },
+            {
+              "Title": "Events & Webinars",
+              "Description": null
+            },
+            {
+              "Title": "White Papers & Reports",
+              "Description": null
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Online tools",
+          "Id": 3,
+          "Links": [
+            {
+              "Title": "PDF to Word",
+              "Description": null
+            },
+            {
+              "Title": "Compress PDF",
+              "Description": null
+            },
+            {
+              "Title": "Merge PDF",
+              "Description": null
+            },
+            {
+              "Title": "Word to PDF",
+              "Description": null
+            },
+            {
+              "Title": "View all Tools",
+              "Description": null
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "Heading": "Marketing & commerce",
+    "Id": 1099,
+    "SubHeadingList": [
+      [
+        {
+          "SectionTitle": "Solutions",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Data insights and audiences",
+              "Description": null
+            },
+            {
+              "Title": "Experience management platform",
+              "Description": null
+            },
+            {
+              "Title": "Content management",
+              "Description": null
+            },
+            {
+              "Title": "Commerce",
+              "Description": null
+            },
+            {
+              "Title": "Customer journeys",
+              "Description": null
+            },
+            {
+              "Title": "B2B marketing",
+              "Description": null
+            },
+            {
+              "Title": "Digital enrollment and onboarding",
+              "Description": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "SectionTitle": "Products",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Analytics",
+              "Description": null
+            },
+            {
+              "Title": "Real-Time CDP",
+              "Description": null
+            },
+            {
+              "Title": "Marketo Engage",
+              "Description": null
+            },
+            {
+              "Title": "Commerce (Magento)",
+              "Description": null
+            },
+            {
+              "Title": "Workfront",
+              "Description": null
+            },
+            {
+              "Title": "Customer Journey Analytics",
+              "Description": null
+            },
+            {
+              "Title": "Journey Optimizer",
+              "Description": null
+            },
+            {
+              "Title": "Experience Manager Site (CMS)",
+              "Description": null
+            },
+            {
+              "Title": "Experience Manager Assets (CMS)",
+              "Description": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "SectionTitle": "Resources",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Resource centre",
+              "Description": null
+            },
+            {
+              "Title": "Customer success stories",
+              "Description": null
+            }
+          ]
+        },
+        {
+          "SectionTitle": "For customer",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Learn and documentation",
+              "Description": null
+            },
+            {
+              "Title": "Community forums",
+              "Description": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "SectionTitle": "Support",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Services and support",
+              "Description": null
+            },
+            {
+              "Title": "Training",
+              "Description": null
+            },
+            {
+              "Title": "Partners",
+              "Description": null
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Events",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Adobe Summit",
+              "Description": null
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Why Adobe",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Why partner with Adobe",
+              "Description": null
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "Heading": "Help & Support",
+    "Id": 1482,
+    "SubHeadingList": [
+      [
+        {
+          "SectionTitle": "Help and support",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Help Centre",
+              "Description": "Troubleshooting and how-tos"
+            },
+            {
+              "Title": "Enterprise Support",
+              "Description": "Dedicated help for large organisations"
+            },
+            {
+              "Title": "Adobe Support Community",
+              "Description": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "SectionTitle": "Common tasks",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Manage my account",
+              "Description": null
+            },
+            {
+              "Title": "Manage my plan",
+              "Description": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "SectionTitle": "Learning resources",
+          "Id": 0,
+          "Links": [
+            {
+              "Title": "Creative Cloud tutorials",
+              "Description": "Learn with tutorials designed to inspire"
+            },
+            {
+              "Title": "Adobe Express",
+              "Description": "Quick videos to start a project"
+            },
+            {
+              "Title": "Acrobat tutorials",
+              "Description": "Learn the basics or refine your skills"
+            },
+            {
+              "Title": "Acrobat Experience",
+              "Description": "Personalised learning to develop your skills"
+            }
+          ]
+        }
+      ]
+    ]
+  }
+]

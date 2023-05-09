@@ -1,51 +1,49 @@
 @import '../../../../styles.scss';
 
-.drop-down-cont{
-    border-bottom: 1px solid $text-grey-dark;
-    color: $text-grey-dark;
-    cursor: pointer;
-    background-color: #ffffff;
+.drop-down-cont {
+  border-bottom: 1px solid $text-grey-dark;
+  color: $text-grey-dark;
+  cursor: pointer;
+  background-color: #ffffff;
 
-    .dd-heading{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
+  .dd-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 
-        h5{
-            margin: 0;
-            padding: 18px 0;
-        }
-        mat-icon{
-            font-size: 14px;
-            transition: all .1s ease;
-            transition-property: transform;
-            width:14px;
-            height:14px;
-        }
-    
-        .turn{
-            transform: rotate(-180deg);
-        }
-
+    h5 {
+      margin: 0;
+      padding: 18px 0;
+    }
+    mat-icon {
+      font-size: 14px;
+      transition: all 0.1s ease;
+      transition-property: transform;
+      width: 14px;
+      height: 14px;
     }
 
-    .dd-content{
-        padding-bottom: 14px;
-
-        ul{
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        li{
-            margin-bottom: 8px;
-        }
-
+    .turn {
+      transform: rotate(-180deg);
     }
+  }
+
+  .dd-content {
+    padding-bottom: 14px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+  }
 }
 
-.top-border{
-    border-top: 1px solid $text-grey-dark;
+.top-border {
+  border-top: 1px solid $text-grey-dark;
 }

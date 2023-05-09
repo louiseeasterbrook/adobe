@@ -1,14 +1,14 @@
 @import '../../../../styles.scss';
 
-.link-container{
-    display: flex;
-    flex-direction: column;
-    gap:12px;
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 
-    h5{
-        font-size: 14px;
-        font-weight: 700;
-        color: $text-grey-dark;
-        margin:0;
-    }
+  h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: $text-grey-dark;
+    margin: 0;
+  }
 }

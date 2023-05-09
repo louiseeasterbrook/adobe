@@ -8,9 +8,8 @@ describe('WelcomeTextComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WelcomeTextComponent ]
-    })
-    .compileComponents();
+      declarations: [WelcomeTextComponent]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(WelcomeTextComponent);
     component = fixture.componentInstance;

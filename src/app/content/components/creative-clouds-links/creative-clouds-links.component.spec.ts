@@ -8,9 +8,8 @@ describe('CreativeCloudsLinksComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CreativeCloudsLinksComponent ]
-    })
-    .compileComponents();
+      declarations: [CreativeCloudsLinksComponent]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(CreativeCloudsLinksComponent);
     component = fixture.componentInstance;

@@ -1,24 +1,22 @@
 @import '../../../../styles.scss';
 
-.footer-outer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: $background-grey-light;
-    padding: 40px 0 20px 0;
-    margin-top: 30px;
+.footer-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $background-grey-light;
+  padding: 40px 0 20px 0;
+  margin-top: 30px;
 
-    .prod-links{
-        @media (max-width: $breakpoint-sm) {
-            display: none;
-            
-        }
+  .prod-links {
+    @media (max-width: $breakpoint-sm) {
+      display: none;
     }
+  }
 
-    .footer-inner{
-        max-width: 1400px;
-        width:100%;
-        padding: 0 20px;
-    }
-
+  .footer-inner {
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 20px;
+  }
 }

@@ -6,4 +6,4 @@ export * from './card-row-intro/card-row-intro.component';
 export * from './card-blurb/card-blurb.component';
 export * from './card-row-explore/card-row-explore.component';
 export * from './adobe-board/adobe-board.component';
-export * from './content/content.component'
+export * from './content/content.component';

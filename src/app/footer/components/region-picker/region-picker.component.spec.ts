@@ -8,9 +8,8 @@ describe('RegionPickerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RegionPickerComponent ]
-    })
-    .compileComponents();
+      declarations: [RegionPickerComponent]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(RegionPickerComponent);
     component = fixture.componentInstance;

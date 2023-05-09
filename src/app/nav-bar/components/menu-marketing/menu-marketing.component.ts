@@ -9,9 +9,7 @@ import { NavLink } from 'src/app/models/nav';
 export class MenuMarketingComponent implements OnInit {
   @Input() linkList: NavLink[][] | null = null;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

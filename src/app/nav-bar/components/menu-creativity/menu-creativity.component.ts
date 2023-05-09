@@ -12,6 +12,5 @@ export class MenuCreativityComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 }

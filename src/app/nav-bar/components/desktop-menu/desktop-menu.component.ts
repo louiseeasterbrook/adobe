@@ -14,8 +14,7 @@ export class DesktopMenuComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   optionClick(id: number) {
     this.navClicked.emit(id);

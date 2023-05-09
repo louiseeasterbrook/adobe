@@ -1,46 +1,42 @@
 @import '../../../../styles.scss';
 
-.content-btn-wrapper{
-    border-radius: 6px;
-    transition: .2s ease;
-    cursor: pointer;
-    padding: 8px 30px;
-    width: 100%;
-    outline: none;
-    border: none;
+.content-btn-wrapper {
+  border-radius: 6px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  padding: 8px 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+  background-color: transparent;
+
+  .text {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    gap: 18px;
-    background-color: transparent;
-
-
-    .text{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap:4px;
-        h5{
-            font-size: 14px;
-            font-weight: 500;
-            color: $text-grey-dark;
-        }
-        p{
-            font-size: 11px;
-            font-weight: 100;
-            color: $text-grey-light;
-        }
-
+    align-items: flex-start;
+    gap: 4px;
+    h5 {
+      font-size: 14px;
+      font-weight: 500;
+      color: $text-grey-dark;
     }
-
-  
+    p {
+      font-size: 11px;
+      font-weight: 100;
+      color: $text-grey-light;
+    }
+  }
 }
 
-.content-btn-wrapper:hover{
-    background-color: $background-grey-hover;
-    .text{
-        h5{
-            color: $basic-blue;
-        }
+.content-btn-wrapper:hover {
+  background-color: $background-grey-hover;
+  .text {
+    h5 {
+      color: $basic-blue;
     }
+  }
 }

@@ -1,13 +1,11 @@
 @import '../../../../styles.scss';
 
-.blurb-wrapper{
+.blurb-wrapper {
+  h2 {
+    margin: 0;
+  }
 
-    h2{
-        margin: 0;
-    }
-
-    p{
-        margin: 0;
-    }
-
+  p {
+    margin: 0;
+  }
 }

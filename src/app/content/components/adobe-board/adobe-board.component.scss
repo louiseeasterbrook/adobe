@@ -1,38 +1,36 @@
 @import '../../../../styles.scss';
 
-.opening-outer{
-    flex-direction: column;
-    min-height: 500px;
+.opening-outer {
+  flex-direction: column;
+  min-height: 500px;
+  width: 100%;
+  @media (max-width: $breakpoint-lg) {
+    align-items: flex-start;
+  }
+
+  .opening-inner {
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    @media (min-width: $breakpoint-lg) {
+      display: none;
+    }
+  }
+
+  .adobe-container {
     width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../../assets/images/acrobat-board.png');
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     @media (max-width: $breakpoint-lg) {
-        align-items: flex-start ;
+      background-image: none;
+      height: 300px;
     }
-
-    .opening-inner{
-        box-sizing: border-box;
-
-    }
-
-    img{
-        max-width:100%;
-        @media (min-width: $breakpoint-lg) {
-            display: none;
-        }
-
-    }
-
-    .adobe-container{
-        width: 100%;
-        height: 500px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url('../../../../assets/images/acrobat-board.png');
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        @media (max-width: $breakpoint-lg) {
-            background-image: none;
-            height: 300px;
-        }
-    }
+  }
 }

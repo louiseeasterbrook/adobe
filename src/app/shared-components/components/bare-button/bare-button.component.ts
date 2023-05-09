@@ -14,8 +14,7 @@ export class BareButtonComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   pressed() {
     this.buttonPressed.emit();

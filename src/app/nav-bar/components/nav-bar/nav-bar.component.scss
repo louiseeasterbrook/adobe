@@ -1,19 +1,19 @@
 @import '../../../../styles.scss';
 
-.nav-outer{
+.nav-outer {
   position: fixed;
-  top:0;
+  top: 0;
   z-index: 999;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
-  width:100%;
+  width: 100%;
   height: $header-height;
   border-bottom: 1px solid $background-grey-mid;
   padding: 0 20px;
   box-sizing: border-box;
-  transition: .5s ease;
-  
+  transition: 0.5s ease;
+
   .nav-inner {
     max-width: 1400px;
     width: 100%;
@@ -21,21 +21,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 
-    .left-section{
+    .left-section {
       display: flex;
-      
 
-      .mobile-button{
+      .mobile-button {
         display: flex;
         align-items: center;
         padding-right: 40px;
         @media (min-width: $breakpoint-md) {
-          display: none; 
+          display: none;
         }
 
-        mat-icon{
+        mat-icon {
           font-size: 18px;
           height: 18px;
           width: 18px;
@@ -60,57 +58,55 @@
         }
       }
 
-      .desktop-menu-wrapper{
+      .desktop-menu-wrapper {
         @media (max-width: $breakpoint-md) {
-          display: none; 
+          display: none;
         }
       }
     }
 
-    .right-section{
+    .right-section {
       display: flex;
       align-items: center;
-      gap:16px;
+      gap: 16px;
 
-      a{
+      a {
         font-size: 14px;
         font-weight: 400;
         text-decoration: none;
         color: $charcoal;
       }
 
-      a:hover{
+      a:hover {
         color: $basic-blue;
         cursor: pointer;
       }
     }
 
-    .search-btn-wrapper{
+    .search-btn-wrapper {
       cursor: pointer;
       position: relative;
       @media (max-width: $breakpoint-md) {
-        display: none; 
+        display: none;
       }
 
-      mat-icon{
+      mat-icon {
         color: $charcoal;
         transform: rotate(90deg);
         font-size: 28x;
       }
-      mat-icon:hover{
+      mat-icon:hover {
         color: $basic-blue;
       }
     }
-
   }
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-
-.hideNavBar{
-  height:0px;
-  top:-$header-height;
+.hideNavBar {
+  height: 0px;
+  top: -$header-height;
 }

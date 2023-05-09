@@ -8,9 +8,8 @@ describe('AdobeBoardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AdobeBoardComponent ]
-    })
-    .compileComponents();
+      declarations: [AdobeBoardComponent]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(AdobeBoardComponent);
     component = fixture.componentInstance;

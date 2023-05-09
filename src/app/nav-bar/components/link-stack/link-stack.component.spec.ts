@@ -8,9 +8,8 @@ describe('LinkStackComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LinkStackComponent ]
-    })
-    .compileComponents();
+      declarations: [LinkStackComponent]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(LinkStackComponent);
     component = fixture.componentInstance;

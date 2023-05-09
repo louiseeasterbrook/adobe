@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MenuPdfComponent } from './menu-pdf.component'
+import { MenuPdfComponent } from './menu-pdf.component';
 
 describe('MenuPdfComponent', () => {
   let component: MenuPdfComponent;

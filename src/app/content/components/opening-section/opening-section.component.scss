@@ -1,38 +1,36 @@
 @import '../../../../styles.scss';
 
-.opening-outer{
-    margin-top: $header-height;
-    flex-direction: column;
-    min-height: 600px;
+.opening-outer {
+  margin-top: $header-height;
+  flex-direction: column;
+  min-height: 600px;
+  @media (max-width: $breakpoint-lg) {
+    align-items: flex-start;
+  }
+
+  .opening-inner {
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    @media (min-width: $breakpoint-lg) {
+      display: none;
+    }
+  }
+
+  .adobe-container {
+    width: 100%;
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../../assets/images/rainbow.jpeg');
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     @media (max-width: $breakpoint-lg) {
-        align-items: flex-start ;
+      background-image: none;
+      height: 400px;
     }
-
-    .opening-inner{
-        box-sizing: border-box;
-
-    }
-
-    img{
-        max-width:100%;
-        @media (min-width: $breakpoint-lg) {
-            display: none;
-        }
-
-    }
-
-    .adobe-container{
-        width: 100%;
-        height: 680px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url('../../../../assets/images/rainbow.jpeg');
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        @media (max-width: $breakpoint-lg) {
-            background-image: none;
-            height: 400px;
-        }
-    }
+  }
 }

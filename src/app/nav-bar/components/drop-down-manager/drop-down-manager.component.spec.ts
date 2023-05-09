@@ -8,9 +8,8 @@ describe('DropDownManagerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DropDownManagerComponent ]
-    })
-    .compileComponents();
+      declarations: [DropDownManagerComponent]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(DropDownManagerComponent);
     component = fixture.componentInstance;

@@ -6,11 +6,9 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./product-display.component.scss']
 })
 export class ProductDisplayComponent implements OnInit {
-  @Input() title: string ='';
+  @Input() title: string = '';
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

@@ -17,6 +17,5 @@ export class CreativeCloudsLinksComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 }

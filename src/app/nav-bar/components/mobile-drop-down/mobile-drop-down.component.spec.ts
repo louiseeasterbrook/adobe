@@ -8,9 +8,8 @@ describe('MobileDropDownComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MobileDropDownComponent ]
-    })
-    .compileComponents();
+      declarations: [MobileDropDownComponent]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(MobileDropDownComponent);
     component = fixture.componentInstance;
