@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavDropDownComponent } from './nav-drop-down.component';
+import { NavDropDownParentComponent } from './nav-drop-down-parent.component';
 
 describe('FooterDropDownComponent', () => {
-  let component: NavDropDownComponent;
-  let fixture: ComponentFixture<NavDropDownComponent>;
+  let component: NavDropDownParentComponent;
+  let fixture: ComponentFixture<NavDropDownParentComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NavDropDownComponent]
+      declarations: [NavDropDownParentComponent]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(NavDropDownComponent);
+    fixture = TestBed.createComponent(NavDropDownParentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

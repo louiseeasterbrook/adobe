@@ -6,7 +6,7 @@
       [
         {
           "SectionTitle": "Products",
-          "Id": 0,
+          "Id": 1202,
           "Links": [
             {
               "Title": "Adobe Acrobat",
@@ -26,7 +26,7 @@
       [
         {
           "SectionTitle": "Featured products",
-          "Id": 1,
+          "Id": 1023,
           "Links": [
             {
               "Title": "Photoshop",
@@ -58,7 +58,7 @@
       [
         {
           "SectionTitle": "Explore",
-          "Id": 2,
+          "Id": 3451,
           "Links": [
             {
               "Title": "Photo",
@@ -92,7 +92,7 @@
         },
         {
           "SectionTitle": "New releases",
-          "Id": 3,
+          "Id": 1782,
           "Links": [
             {
               "Title": "Adobe Firefly",
@@ -110,7 +110,7 @@
       [
         {
           "SectionTitle": "Products",
-          "Id": 0,
+          "Id": 1090,
           "Links": [
             {
               "Title": "Adobe Acrobat",
@@ -130,7 +130,7 @@
       [
         {
           "SectionTitle": "Shop for",
-          "Id": 1,
+          "Id": 9897,
           "Links": [
             {
               "Title": "Small Business",
@@ -154,7 +154,7 @@
       [
         {
           "SectionTitle": "Resources",
-          "Id": 2,
+          "Id": 1123,
           "Links": [
             {
               "Title": "Developer center",
@@ -176,7 +176,7 @@
         },
         {
           "SectionTitle": "Online tools",
-          "Id": 3,
+          "Id": 1654,
           "Links": [
             {
               "Title": "PDF to Word",
@@ -210,7 +210,7 @@
       [
         {
           "SectionTitle": "Solutions",
-          "Id": 0,
+          "Id": 7771,
           "Links": [
             {
               "Title": "Data insights and audiences",
@@ -246,7 +246,7 @@
       [
         {
           "SectionTitle": "Products",
-          "Id": 0,
+          "Id": 8812,
           "Links": [
             {
               "Title": "Analytics",
@@ -290,7 +290,7 @@
       [
         {
           "SectionTitle": "Resources",
-          "Id": 0,
+          "Id": 1003,
           "Links": [
             {
               "Title": "Resource centre",
@@ -304,7 +304,7 @@
         },
         {
           "SectionTitle": "For customer",
-          "Id": 0,
+          "Id": 5541,
           "Links": [
             {
               "Title": "Learn and documentation",
@@ -320,7 +320,7 @@
       [
         {
           "SectionTitle": "Support",
-          "Id": 0,
+          "Id": 7823,
           "Links": [
             {
               "Title": "Services and support",
@@ -338,7 +338,7 @@
         },
         {
           "SectionTitle": "Events",
-          "Id": 0,
+          "Id": 4567,
           "Links": [
             {
               "Title": "Adobe Summit",
@@ -348,7 +348,7 @@
         },
         {
           "SectionTitle": "Why Adobe",
-          "Id": 0,
+          "Id": 3987,
           "Links": [
             {
               "Title": "Why partner with Adobe",
@@ -366,7 +366,7 @@
       [
         {
           "SectionTitle": "Help and support",
-          "Id": 0,
+          "Id": 6766,
           "Links": [
             {
               "Title": "Help Centre",
@@ -386,7 +386,7 @@
       [
         {
           "SectionTitle": "Common tasks",
-          "Id": 0,
+          "Id": 1009,
           "Links": [
             {
               "Title": "Manage my account",
@@ -402,7 +402,7 @@
       [
         {
           "SectionTitle": "Learning resources",
-          "Id": 0,
+          "Id": 3423,
           "Links": [
             {
               "Title": "Creative Cloud tutorials",

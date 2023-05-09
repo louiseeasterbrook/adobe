@@ -30,6 +30,8 @@ export class NavBarComponent implements OnInit {
     if (document.documentElement.clientWidth < 900) {
       this.showDesktopDropDown = false;
       this.showSearchBar = false;
+    } else if (document.documentElement.clientWidth > 900) {
+      this.showMobileDropDown = false;
     }
   }
 

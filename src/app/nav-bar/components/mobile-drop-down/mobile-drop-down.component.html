@@ -2,6 +2,12 @@
   <search-bar></search-bar>
 
   <ng-container *ngFor="let data of navData">
-    <nav-drop-down [title]="data.Heading" [subHeadings]="data.SubHeadingList"></nav-drop-down>
+    <nav-drop-down-parent
+      [title]="data.Heading"
+      [subHeadings]="data.SubHeadingList"
+      [id]="data.Id"
+      [open]="isOpen(data.Id)"
+      (selected)="isSelected($event)"
+    ></nav-drop-down-parent>
   </ng-container>
 </div>

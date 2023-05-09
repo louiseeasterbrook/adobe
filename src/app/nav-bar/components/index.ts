@@ -10,5 +10,6 @@ export * from './menu-pdf/menu-pdf.component';
 export * from './menu-help/menu-help.component';
 export * from './menu-marketing/menu-marketing.component';
 export * from './nav-card/nav-card.component';
-export * from './nav-drop-down/nav-drop-down.component';
+export * from './nav-drop-down-parent/nav-drop-down-parent.component';
 export * from './drop-down-manager/drop-down-manager.component';
+export * from './nav-drop-down-child/nav-drop-down-child.component';

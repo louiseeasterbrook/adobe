@@ -1,20 +1,21 @@
 @import '../../../../styles.scss';
 
 .drop-down-cont {
-  border-bottom: 1px solid $background-grey-mid;
+  // border-bottom: 1px solid $background-grey-mid;
   color: $text-grey-dark;
   cursor: pointer;
-  padding: 0 20px;
+  // background-color: brown;
 
   .dd-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    padding-left: 40px;
+    padding-right: 30px;
 
     h5 {
       margin: 0;
-      padding: 18px 0;
+      padding: 10px 0;
       font-weight: 500;
     }
     mat-icon {
@@ -40,7 +41,19 @@
     }
 
     li {
-      margin-bottom: 8px;
+      a {
+        display: block;
+        padding: 5px 0;
+        padding-left: 40px;
+        font-size: 14px;
+        text-decoration: none;
+        color: $text-grey-dark;
+        cursor: pointer;
+      }
+      a:hover {
+        background-color: $background-grey-mid;
+        color: $basic-blue;
+      }
     }
   }
 }

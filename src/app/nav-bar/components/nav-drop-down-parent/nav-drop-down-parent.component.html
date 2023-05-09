@@ -1,0 +1,18 @@
+<div class="drop-down-cont">
+  <div class="dd-heading" (click)="optionClicked()">
+    <h5>{{ title }}</h5>
+    <mat-icon [ngClass]="{ turn: open }">expand_more</mat-icon>
+  </div>
+  <div *ngIf="open" class="dd-content">
+    <ul>
+      <ng-container *ngFor="let data of processedSubHeadings">
+        <nav-drop-down-child
+          [linkData]="data"
+          [id]="data.Id"
+          [open]="isOpen(data.Id)"
+          (selected)="isSelected($event)"
+        ></nav-drop-down-child>
+      </ng-container>
+    </ul>
+  </div>
+</div>

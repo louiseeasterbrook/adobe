@@ -1,12 +1,12 @@
-<div class="drop-down-cont" [ngClass]="{ 'top-border': topBorder }">
+<div *ngIf="linkData" class="drop-down-cont">
   <div class="dd-heading" (click)="optionClicked()">
-    <h5>{{ title }}</h5>
+    <h5>{{ linkData.SectionTitle }}</h5>
     <mat-icon [ngClass]="{ turn: open }">expand_more</mat-icon>
   </div>
   <div *ngIf="open" class="dd-content">
     <ul>
-      <li *ngFor="let link of linkList">
-        <a href="#" class="footer-link">{{ link }}</a>
+      <li *ngFor="let link of linkData.Links">
+        <a href="#" class="nav-child-link">{{ link.Title }}</a>
       </li>
     </ul>
   </div>

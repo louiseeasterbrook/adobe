@@ -16,8 +16,9 @@ import {
   MenuMarketingComponent,
   MenuPdfComponent,
   NavCardComponent,
-  NavDropDownComponent,
-  DropDownManagerComponent
+  NavDropDownParentComponent,
+  DropDownManagerComponent,
+  NavDropDownChildComponent
 } from './components/index';
 
 import { SharedComponentsModule } from '../shared-components/shared-components.module';
@@ -37,8 +38,10 @@ import { SharedComponentsModule } from '../shared-components/shared-components.m
     MenuMarketingComponent,
     MenuHelpComponent,
     NavCardComponent,
-    NavDropDownComponent,
-    DropDownManagerComponent
+    NavDropDownParentComponent,
+    DropDownManagerComponent,
+    NavDropDownChildComponent,
+    NavDropDownChildComponent
   ],
   imports: [CommonModule, BrowserModule, SharedComponentsModule, MatIconModule],
   exports: [NavBarComponent]
