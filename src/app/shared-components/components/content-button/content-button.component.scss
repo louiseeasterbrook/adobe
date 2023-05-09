@@ -10,6 +10,7 @@
   border: none;
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
   gap: 18px;
   background-color: transparent;
 
@@ -23,6 +24,7 @@
       font-size: 14px;
       font-weight: 500;
       color: $text-grey-dark;
+      text-align: start;
     }
     p {
       font-size: 11px;
