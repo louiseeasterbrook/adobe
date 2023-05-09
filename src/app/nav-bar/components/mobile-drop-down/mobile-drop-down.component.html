@@ -1,5 +1,7 @@
 <div class="mobile-wrapper">
   <search-bar></search-bar>
 
-  <nav-drop-down title="test"></nav-drop-down>
+  <ng-container *ngFor="let data of navData">
+    <nav-drop-down [title]="data.Heading" [subHeadings]="data.SubHeadingList"></nav-drop-down>
+  </ng-container>
 </div>

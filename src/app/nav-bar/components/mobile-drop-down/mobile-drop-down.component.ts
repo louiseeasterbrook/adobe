@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NavData } from 'src/app/models/nav';
+import { NavBarService } from '../../services/nav-bar.service';
 
 @Component({
   selector: 'mobile-drop-down',
@@ -6,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mobile-drop-down.component.scss']
 })
 export class MobileDropDownComponent implements OnInit {
-  constructor() {}
+  navData: NavData[] | null = null;
 
-  ngOnInit(): void {}
+  constructor(private navBarService: NavBarService) {}
+
+  ngOnInit(): void {
+    this.navData = this.navBarService.getNavData();
+    console.log(this.navData);
+  }
 }

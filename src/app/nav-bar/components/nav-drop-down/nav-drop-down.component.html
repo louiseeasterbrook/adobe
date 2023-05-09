@@ -1,8 +1,4 @@
-<div
-  class="drop-down-cont"
-  [ngClass]="{ 'top-border': topBorder }"
-  (click)="optionClicked()"
->
+<div class="drop-down-cont" (click)="optionClicked()">
   <div class="dd-heading">
     <h5>{{ title }}</h5>
     <mat-icon [ngClass]="{ turn: open }">expand_more</mat-icon>

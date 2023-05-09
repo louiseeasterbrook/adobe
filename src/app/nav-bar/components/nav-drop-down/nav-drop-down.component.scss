@@ -1,10 +1,10 @@
 @import '../../../../styles.scss';
 
 .drop-down-cont {
-  border-bottom: 1px solid $text-grey-dark;
+  border-bottom: 1px solid $background-grey-mid;
   color: $text-grey-dark;
   cursor: pointer;
-  background-color: #ffffff;
+  padding: 0 20px;
 
   .dd-heading {
     display: flex;
@@ -15,6 +15,7 @@
     h5 {
       margin: 0;
       padding: 18px 0;
+      font-weight: 500;
     }
     mat-icon {
       font-size: 14px;
