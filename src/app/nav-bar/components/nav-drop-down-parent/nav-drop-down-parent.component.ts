@@ -18,7 +18,6 @@ export class NavDropDownParentComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log('sub ', this.subHeadings);
     this.processSubheadings();
   }
 
@@ -38,7 +37,6 @@ export class NavDropDownParentComponent implements OnInit {
   }
 
   isSelected(id: number) {
-    console.log(id);
     if (this.selectedId === id) {
       this.selectedId = 0;
       return;

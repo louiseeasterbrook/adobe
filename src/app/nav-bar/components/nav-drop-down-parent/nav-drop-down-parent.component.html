@@ -1,4 +1,4 @@
-<div class="drop-down-cont">
+<div class="drop-down-cont" [ngClass]="{ leftBorder: open }">
   <div class="dd-heading" (click)="optionClicked()">
     <h5>{{ title }}</h5>
     <mat-icon [ngClass]="{ turn: open }">expand_more</mat-icon>

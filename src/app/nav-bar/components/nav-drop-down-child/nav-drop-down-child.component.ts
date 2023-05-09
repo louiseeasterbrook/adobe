@@ -15,7 +15,6 @@ export class NavDropDownChildComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log('MADE T  ', this.linkData);
   }
 
   optionClicked() {

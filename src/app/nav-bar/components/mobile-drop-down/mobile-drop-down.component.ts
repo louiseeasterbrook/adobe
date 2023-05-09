@@ -15,11 +15,9 @@ export class MobileDropDownComponent implements OnInit {
 
   ngOnInit(): void {
     this.navData = this.navBarService.getNavData();
-    console.log(this.navData);
   }
 
   isSelected(id: number) {
-    console.log(id);
     if (this.selectedId === id) {
       this.selectedId = 0;
       return;
