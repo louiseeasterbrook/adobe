@@ -5,6 +5,9 @@ $breakpoint-sm: 600px;
 $header-height: 70px;
 $desktop-dd-max: 1200px;
 
+$side-padding: 40px;
+$side-padding-mobile: 25px;
+
 // grey
 $text-grey-hover: #7e7e7e;
 $text-grey-light: #4b4b4b;
@@ -45,9 +48,9 @@ body {
 .container-inner {
   max-width: 1400px;
   width: 100%;
-  padding: 0 45px;
+  padding: 0 $side-padding;
   @media (max-width: $breakpoint-sm) {
-    padding: 0 25px;
+    padding: 0 $side-padding-mobile;
   }
 }
 
