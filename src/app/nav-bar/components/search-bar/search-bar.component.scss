@@ -4,9 +4,15 @@
   background-color: $background-grey-light;
   padding: 20px 30px;
   box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .input-wrapper {
+  max-width: $desktop-dd-max;
+  width: 100%;
   background-color: #ffffff;
   display: flex;
   align-items: center;
