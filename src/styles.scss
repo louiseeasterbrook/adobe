@@ -33,14 +33,12 @@ body {
 }
 
 .container-outer {
-  background-color: #1265cb;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .container-inner {
-  background-color: #fa0f00;
   max-width: 1400px;
   width: 100%;
   padding: 0 45px;
@@ -112,4 +110,8 @@ h3 {
       width: 100%;
     }
   }
+}
+
+.full-width {
+  width: 100%;
 }
