@@ -20,7 +20,7 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 
     .left-section {
       display: flex;
@@ -44,6 +44,7 @@
       .logo-wrapper {
         cursor: pointer;
         display: flex;
+        align-items: center;
         gap: 10px;
         padding-right: 15px;
 
