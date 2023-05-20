@@ -11,7 +11,6 @@ import {
   CardRowIntroComponent,
   CardBlurbComponent,
   AdobeBoardComponent,
-  CardRowExploreComponent,
   ContentComponent
 } from './components/index';
 
@@ -23,7 +22,6 @@ import {
     ContentCardComponent,
     CardRowIntroComponent,
     CardBlurbComponent,
-    CardRowExploreComponent,
     AdobeBoardComponent,
     ContentComponent
   ],
