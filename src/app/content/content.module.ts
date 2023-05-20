@@ -30,6 +30,6 @@ import {
   imports: [SharedComponentsModule, BrowserModule],
   providers: [],
   bootstrap: [],
-  exports: [OpeningSectionComponent, ContentComponent]
+  exports: [OpeningSectionComponent, ContentComponent, WelcomeTextComponent,]
 })
 export class ContentModule {}
